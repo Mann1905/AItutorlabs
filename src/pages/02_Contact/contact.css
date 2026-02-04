@@ -1,0 +1,156 @@
+.Contact-MainSection-Flex {
+    display: flex;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.Contact-MainSection-Info-Flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 44.47vw;
+}
+
+.Contact-MainSection-Info-Flex h1 {
+    color: var(--Orange);
+}
+
+.Contact-MainSection-Info-Element {
+    margin-top: 3vw;
+}
+
+.Contact-MainSection-Info-Email {
+    margin-top: 2vw;
+}
+
+.Contact-MainSection-Info-Element span{
+    display: block;
+
+    margin: 0%;
+    margin-bottom: 0.5vw;
+}
+
+.Contact-MainSection-Info-Social-Icons {
+    width: 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Contact-MainSection-Info-Social-Icons img {
+    width: 4vw;
+    height: 4vw;
+
+    border-radius: 1vw;
+}
+
+.Contact-MainSection-FormSection {
+    width: 44.47vw;
+
+    margin-top: 0.5vw;
+}
+
+.Contact-MainSection-FormSection-Form-Element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 1.5vw;
+}
+
+.Contact-MainSection-FormSection-Form-Element input{
+    margin-top: 0.5vw;
+}
+
+.Contact-MainSection-FormSection-Form-Element textarea{
+    margin-top: 0.5vw;
+}
+
+.Contact-MainSection-FormSection-Form button {
+    display: block;
+
+    width: 44.37vw;
+
+    margin-top: 1.5vw;
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+@media (max-width: 767px) {
+    .Contact-MainSection-Flex {
+        flex-direction: column;
+
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+    }
+
+    .Contact-MainSection-Info-Flex {
+        width: 90vw;
+    }
+
+    .Contact-MainSection-Info-Element {
+        margin-top: 3vw;
+    }
+
+    .Contact-MainSection-Info-Email {
+        margin-top: 0vw;
+    }
+
+    .Contact-MainSection-Info-Element span{
+        margin-bottom: 1.5vw;
+    }
+
+    .Contact-MainSection-FormSection {
+        width: 90vw;
+
+        margin-top: 1.5vw;
+    }
+
+    .Contact-MainSection-Info-Social-Icons {
+        width: 18vw;
+    }
+
+    .Contact-MainSection-Info-Social-Icons img {
+        width: 8vw;
+        height: 8vw;
+
+        border-radius: 1.5vw;
+    }
+
+    .Contact-MainSection-FormSection-Form-Element {
+        margin-top: 4vw;
+    }
+
+    .Contact-MainSection-FormSection-Form-Element input{
+        margin-top: 1.5vw;
+    }
+
+    .Contact-MainSection-FormSection-Form-Element textarea{
+        margin-top: 1.5vw;
+    }
+
+    .Contact-MainSection-FormSection-Form button {
+        width: 90vw;
+
+        margin-top: 3vw;
+        padding: 3vw;
+
+        border-radius: 2vw;
+    }
+}

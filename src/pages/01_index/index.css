@@ -1,0 +1,2125 @@
+.Home-HeroSection-Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 3vw;
+}
+
+.Home-HeroSection-Main-Info {
+    width: 50vw;
+}
+
+.Home-HeroSection-Main-Info h1 {
+    margin-bottom: 0vw;
+
+    color: var(--Orange);
+
+    line-height: 6vw;
+}
+
+.Home-HeroSection-Main-Info p {
+    width: 40vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.Home-HeroSection-Main-Info-Links {
+    display: flex;
+    justify-content: space-between;
+
+    width: 40vw;
+}
+
+.Home-HeroSection-Main-Info-Links-Workshop {
+    width: 16vw;
+
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    font-weight: 800;
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+    font-size: 1vw;
+
+    cursor: pointer;
+}
+
+.Home-HeroSection-Main-Info-Links-Volunteer {
+    width: 16vw;
+
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--BG);
+
+    font-weight: 800;
+
+    border: 1px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+    font-size: 1vw;
+
+    cursor: pointer;
+}
+
+.Home-HeroSection-Main img {
+    width: 35vw;
+    height: 38vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.slide-container-Cards{
+    position: relative;
+
+    margin-top: 0vw;
+
+    z-index: 10;
+}
+
+.slide-container-Cards .slides-Cards{
+    width: 35vw;
+    height: 38vw;
+    position: relative;
+ 
+    order: 3px solid var(--Black);
+    border-radius: 1vw;
+
+    overflow: hidden;
+}
+
+.slide-container-Cards .slides-Cards div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center center;
+
+    z-index: 10;
+}
+
+.slides-Cards {
+    margin-bottom: 1vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+
+  
+    background-position: center center;
+}
+
+.slide-container-Cards .slides-Cards div:not(.active){
+    top: 0;
+    left: -100%;
+    background-position: center center;
+}
+
+.Home-ImpactSection-Main {
+    display: flex;
+    flex-direction: column;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.Home-ImpactSection-Title {
+    text-align: center;
+    margin-bottom: 3vw;
+    font-weight: 800;   
+
+
+}
+
+.Home-ImpactSection-Cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 1vw;
+}
+
+.Home-ImpactSection-Arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 6vw;
+    height: 3vw;
+}
+
+.Home-ImpactSection-Arrow svg {
+    width: 100%;
+    height: 100%;
+}
+
+.Home-ImpactSection-Card {
+    width: 27vw;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+
+    padding: 0.7vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Home-ImpactSection-Card h2 {
+    margin: 0vw;
+    margin-top: auto;
+    padding-top: 1vw;
+    font-size: 1.8vw;
+
+    border-top: 2px solid var(--BG);
+    color: var(--BG);
+}
+
+.Home-ImpactSection-Card span {
+    margin: 0vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+
+    color: var(--BG);
+
+    font-size: 1.8vw;
+}
+
+.Home-ImpactSection-Card p {
+    margin: 0vw;
+    margin-top: 4vw;
+    margin-bottom: 1.5vw;
+    flex-grow: 1;
+   
+    font-size: 1.5vw;
+    color: var(--BG);
+}
+
+.Home-ImpactSection-Card:nth-child(1) {
+    background-color: var(--Green);
+}
+
+.Home-ImpactSection-Card:nth-child(3) {
+    background-color: var(--Blue);
+}
+
+.Home-ImpactSection-Card:nth-child(5) {
+    background-color: var(--Orange);
+}
+
+.Home-ImpactSection-Card:nth-child(4) {
+    background-color: var(--Pink);
+}
+
+.Home-ImpactSection-Card:nth-child(4) h2 {
+    color: var(--Black);
+}
+
+.Home-ImpactSection-Card:nth-child(4) p {
+    color: var(--Black);
+}
+
+.homeo-Iframe {
+    width: 75vw;
+
+    margin: auto;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    padding: 5vw;
+    padding-top: 3vw;
+
+    background-color: var(--Orange);
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.homeo-Iframe h2{
+    width: 60vw;
+
+    margin: auto;
+    margin-bottom: 2vw;
+
+    color: var(--BG);
+
+    font-weight: 800;
+    text-align: center;
+}
+
+.homeo-Iframe-Embed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    width: 60vw;
+    height: 30vw;
+
+    margin: auto;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Home-MissionSection-Main {
+    width: 75vw;
+
+    margin: auto;
+}
+
+.Home-MissionSection-Info {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.Home-MissionSection-Info h2 {
+    width: 30vw;
+
+    margin-top: 0vw;
+
+    font-weight: 800;
+    line-height: 4vw;
+}
+
+.Home-MissionSection-Info p {
+    width: 50vw;
+
+    margin-top: 0vw;
+}
+
+.Home-MissionSection-Flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 75vw;
+
+    margin: auto;
+}
+
+.Home-MissionSection-Section-Two-Cards {
+    margin-right: 2vw;
+}
+
+.Home-MissionSection-Section-Two-Cards {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    border-top: 3px solid var(--Orange);
+}
+
+.Home-MissionSection-Section-Two-Cards img {
+    width: 10vw;
+    height: 10vw;
+
+    margin: 1vw;
+
+    border-radius: 1vw;
+}
+
+.Home-MissionSection-Section-One-Cards p {
+    font-size: 2.5vw;
+    font-weight: 800;
+}
+
+.Home-MissionSection-Section-One-Cards-One p {
+    color: #C5192D;
+}
+
+.Home-MissionSection-Section-Two-Cards p {
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.Home-MissionSection-Section-Two-Cards-Two p {
+    color: #FF3A21;
+}
+
+.Home-MissionSection-Section-Two-Cards-Three p {
+    color: #A21942;
+}
+
+.Home-MissionSection-Section-Two-Cards-Four {
+    border-bottom: 3px solid var(--Orange);
+}
+
+.Home-MissionSection-Section-Two-Cards-Four p {
+    color: #DD1367;
+}
+
+.Home-VisionSection-Main {
+    width: 90vw;
+    margin: auto;
+}
+
+.Home-VisionSection-Main h2 {
+    font-size: 3.33vw;
+    font-weight: 800;
+    text-align: center;
+
+    margin-bottom: 3vw;
+}
+
+.Home-VisionSection-Flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home-VisionSection-Cards {
+    padding: 1.5vw;
+    width: 18vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Home-VisionSection-Cards h3 {
+    margin: 0%;
+
+    color: var(--BG);
+}
+
+.Home-VisionSection-Cards ul {
+    margin-left: 1vw;
+}
+
+.Home-VisionSection-Cards li {
+    margin-left: 0vw;
+
+    color: var(--BG);
+}
+
+.Home-VisionSection-Cards:nth-child(1) {
+    color: var(--BG);
+    background-color: var(--Green);
+}
+
+.Home-VisionSection-Cards:nth-child(2) {
+    color: var(--BG);
+    background-color: var(--Orange);
+}
+
+.Home-VisionSection-Cards:nth-child(3) {
+    color: var(--BG);
+    background-color: var(--Blue);
+}
+
+.Home-VisionSection-Cards:nth-child(4) {
+    color: var(--Black);
+    background-color: var(--Pink);
+}
+
+.Home-VisionSection-Cards:nth-child(4) h3{
+    color: var(--Black);
+}
+
+.Home-VisionSection-Cards:nth-child(4) li{
+    color: var(--Black);
+}
+
+.Home-ChallengesSection-Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.Home-ChallengesSection-Main-Info {
+    width: 31vw;
+}
+
+.Home-ChallengesSection-Main-Info h2 {
+    margin: 0%;
+
+    color: var(--Black);
+    font-weight: 800;
+    
+}
+
+.Home-ChallengesSection-Main-Flex {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 50vw;
+}
+
+.Home-ChallengesSection-Main-Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 20vw;
+    padding: 1.5vw;
+}
+
+.Home-ChallengesSection-Main-Card h2{
+    width: 18vw;
+
+    margin: 0%;
+
+    color: var(--BG);
+
+    font-size: 6.66vw;
+}
+
+.Home-ChallengesSection-Main-Card p{
+    width: 18vw;
+
+    color: var(--BG);
+}
+
+.Home-ChallengesSection-Main-Card:nth-child(1) {
+    background-color: var(--Green);
+
+    border-radius: 1vw 0vw 0vw 0vw;
+}
+
+.Home-ChallengesSection-Main-Card:nth-child(2) {
+    background-color: var(--Pink);
+
+    border-radius: 0vw 1vw 0vw 0vw;
+}
+
+.Home-ChallengesSection-Main-Card:nth-child(3) {
+    background-color: var(--Orange);
+
+    border-radius: 0vw 0vw 0vw 1vw;
+}
+
+.Home-ChallengesSection-Main-Card:nth-child(4) {
+    background-color: var(--Blue);
+
+    border-radius: 0vw 0vw 1vw 0vw;
+}
+
+.Home-ChallengesSection-Main-Card:nth-child(2) h2 {
+    color: var(--Black);
+}
+
+.Home-ChallengesSection-Main-Card:nth-child(2) p {
+    color: var(--Black);
+}
+
+.Home-EngagementSection-Main {
+    width: 90vw;
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+.Home-EngagementSection-Title {
+
+    
+    text-align: left;
+    margin-bottom: 1.5vw;
+
+    width: fit-content;
+    max-width: 49vw;
+}
+
+.Home-EngagementSection-Content {
+    display: flex;
+    
+    align-items: flex-start;
+    gap: 1.5vw;
+}
+
+.Home-EngagementSection-Strategy {
+    width: 50vw;
+    
+}
+
+
+.Home-EngagementSection-Strategy h3 {
+    font-size: 1.3vw;
+    color: var(--Black);
+    margin-bottom: 1vw;
+    white-space: nowrap;
+}
+
+.Home-EngagementSection-Strategy ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Home-EngagementSection-Strategy li {
+    font-size: 1.3vw;
+    color: var(--Black);
+    margin-bottom: 1.2vw;
+    padding-left: 2vw;
+    position: relative;
+    line-height: 1.4;
+}
+
+.Home-EngagementSection-Strategy li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    color: var(--Orange);
+    font-size: 1.8vw;
+    font-weight: 800;
+}
+
+.Home-EngagementSection-Chart { 
+    width: 31vw;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+.Home-EngagementSection-Chart img {
+    width: 100%;
+    height: auto;       
+    margin-left:10vw;
+    padding: 0;
+}
+
+.Home-AboutSection-Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.Home-AboutSection-Main img {
+    width: 35vw;
+    height: 40vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Home-AboutSection-Info {
+    width: 50vw;
+}
+
+.Home-AboutSection-Info h2 {
+    margin: 0%;
+
+    color: var(--black);
+    font-weight: 800;
+
+    
+    line-height: 6vw;
+}
+
+.Home-FounderSection-Main {
+    width: 90vw;
+
+    margin: auto;
+}
+
+.Home-FounderSection-Main h2 {
+    text-align: center;
+    font-weight: 800;
+}
+
+.Home-FounderSection-Flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    width: 90vw;
+
+    margin-right: 0vw;
+}
+
+.Home-FounderSection-Card {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+    width: 43.5vw;
+
+    margin-bottom: 2vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Home-FounderSection-Card img {
+    width: 21vw;
+    height: 21vw;
+
+    margin: 1vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+
+    
+    object-position: center top;
+}
+
+.Home-FounderSection-Card:nth-child(1) img {
+    object-position: center 20%;
+}
+
+.Home-FounderSection-Card:nth-child(5) img {
+    object-position: center 20%;
+}
+
+.Home-FounderSection-Card-Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 1vw;
+}
+
+.Home-FounderSection-Card-Info h3 {
+    width: 20vw;
+
+    margin: 0vw;
+}
+
+.Home-FounderSection-Card-Info p {
+    width: 18vw;
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.Home-FounderSection-Card-Info span {
+    display: block;
+
+    width: 18vw;
+
+    font-style: italic;
+    font-size: 1.5vw;
+}
+
+.Home-CollaburatorsSection-Main {
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+}
+
+.Home-CollaburatorsSection-Main h2 {
+    width: 90vw;
+    font-weight: 800;
+    margin: auto;
+
+    text-align: center;
+}
+
+.Home-CollaburatorsSection-Flex {
+    display: flex;
+    justify-content: center;
+}
+
+.Home-CollaburatorsSection-Cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 2vw;
+
+}
+
+.Home-CollaburatorsSection-Cards img {
+    width: 15vw;
+
+    border-radius: 1vw;
+}
+
+.Home-CollaburatorsSection-Cards span {
+    margin-top: 1vw;
+}
+
+.Home-AppSection-Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.Home-AppSection-Main img {
+    width: 35vw;
+    height: 40vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Home-AppSection-Info {
+    width: 50vw;
+}
+
+.Home-AppSection-Info h2 {
+    margin: 0%;
+
+    color: var(--black);
+    font-weight: 800;
+    
+    line-height: 3vw;
+}
+
+.Home-AppSection-Info a {
+    width: 35vw;
+
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 800;
+
+    cursor: pointer;
+}
+
+.Home-WorkshopSection-Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+}
+
+.Home-WorkshopSection-Info {
+    width: 42vw;
+}
+
+.Home-WorkshopSection-Info h2 {
+    margin: 0%;
+
+    
+    line-height: 6vw;
+}
+
+.Home-WorkshopSection-Social span {
+    display: block;
+
+    margin-bottom: 0.5vw;
+}
+
+.Home-WorkshopSection-Social-Icons {
+    display: flex;
+    justify-content: space-between;
+
+    width: 9vw;
+}
+
+.Home-WorkshopSection-Social-Icons a img {
+    width: 4vw;
+    height: 4vw;
+
+    border-radius: 1vw;
+}
+
+.Home-WorkshopSection-Form-Element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 1.5vw;
+}
+
+.Home-WorkshopSection-Form-Element input{
+    margin-top: 0.5vw;
+}
+
+.Home-WorkshopSection-Form button {
+    display: block;
+
+    width: 42vw;
+
+    margin-top: 1.5vw;
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.Home-VolunteerHighlight-Main {
+    width: 90vw;
+    margin: auto;
+}
+
+.Home-VolunteerHighlight-Info {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 2vw;
+}
+
+.Home-VolunteerHighlight-Info h2 {
+    margin: 0vw;
+
+    line-height: 4.5vw;
+    
+}
+
+.Home-VolunteerHighlight-Info-Description {
+    width: 36vw;
+}
+
+.Home-VolunteerHighlight-Info-Description a {
+    width: 33vw;
+
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 800;
+
+    cursor: pointer;
+}
+
+.Home-VolunteerHighlight {
+    display: flex;
+    justify-content: space-between;
+
+    width: 90vw;
+    
+    margin: auto;
+}
+
+.Home-VolunteerHighlight-Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    width: 25vw;
+
+    padding: 2vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Home-VolunteerHighlight-Split {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 35vw;
+}
+
+.Home-VolunteerHighlight-Card h3{
+    margin-bottom: 0vw;
+}
+
+.Home-VolunteerHighlight-Card-One {
+    width: 20vw;
+
+    background-color: var(--Pink);
+}
+
+.Home-VolunteerHighlight-Card-Two {
+    margin-bottom: 2vw;
+
+    background-color: var(--Orange);
+}
+
+.Home-VolunteerHighlight-Card-Two h3 {
+    color: var(--BG);
+}
+
+.Home-VolunteerHighlight-Card-Two p {
+    color: var(--BG);
+}
+
+.Home-VolunteerHighlight-Card-Three {
+    background-color: var(--Blue);
+}
+
+.Home-VolunteerHighlight-Card-Three h3 {
+    color: var(--BG);
+}
+
+.Home-VolunteerHighlight-Card-Three p {
+    color: var(--BG);
+}
+
+.Home-VolunteerHighlight-Card-Four {
+    width: 35vw;
+
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)), url("../../images/steamvision/V2.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.Home-VolunteerHighlight-Card-Four h3 {
+    color: var(--BG);
+}
+
+.Home-VolunteerHighlight-Card-Four p {
+    color: var(--BG);
+}
+
+.Home-DonateHighlight {
+    width: 90vw;
+
+    margin: auto;
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+}
+
+.Home-DonateHighlight-Info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home-DonateHighlight-Info-DetailsMain  {
+    width: 50vw;
+    margin-bottom: 10vw;
+}
+
+.Home-DonateHighlight-Info-DetailsMain h2 {
+    color: var(--Black);
+
+    font-size:3.3vw;}
+
+
+.Home-DonateHighlight-Info-Details {
+    width: 38vw;
+
+    margin-top: 4.5vw;
+}
+
+.Home-DonateHighlight-Info-Details button{
+    display: block;
+
+    width: 38vw;
+
+    margin-top: 1.5vw;
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.Home-DonateHighlight-InfoCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home-DonateHighlight-InfoCards-Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    width: 60vw;
+    padding: 3vw;
+
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)), url("../../images/steamvision/D2.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Home-DonateHighlight-InfoCards-Main h3 {
+    margin: 0vw;
+
+    color: var(--BG);
+}
+
+.Home-DonateHighlight-InfoCards-Main p {
+    margin: 0vw;
+    margin-top: 2vw;
+
+    color: var(--BG);
+}
+
+.Home-DonateHighlight-InfoCards-Flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Home-DonateHighlight-InfoCards-Flex-Cards {
+    padding: 1.5vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Home-DonateHighlight-InfoCards-Flex-Cards h3 {
+    margin: 0vw;
+    margin-top: 3vw;
+
+    color: var(--BG);
+
+    font-size: 3.5vw;
+}
+
+.Home-DonateHighlight-InfoCards-Flex-Cards p {
+    margin: 0vw;
+
+    color: var(--BG);
+}
+
+.Home-DonateHighlight-InfoCards-Flex-Cards:nth-child(1) {
+    background-color: var(--Green);
+}
+
+.Home-DonateHighlight-InfoCards-Flex-Cards:nth-child(2) {
+    background-color: var(--Blue);
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.Home-DonateHighlight-InfoCards-Flex-Cards:nth-child(3) {
+    background-color: var(--Orange);
+}
+
+.Home-ContactSection-Flex {
+    display: flex;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.Home-ContactSection-Info-Flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 44.47vw;
+}
+
+.Home-ContactSection-Info-Flex h1 {
+    color: var(--Black);
+    font-weight: 800;
+    font-size: 3.33vw;
+}
+
+.Home-ContactSection-Info-Element {
+    margin-top: 3vw;
+}
+
+.Home-ContactSection-Info-Email {
+    margin-top: 2vw;
+}
+
+.Home-ContactSection-Info-Element span{
+    display: block;
+
+    margin: 0%;
+    margin-bottom: 0.5vw;
+}
+
+.Home-ContactSection-Info-Social-Icons {
+    width: 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home-ContactSection-Info-Social-Icons img {
+    width: 4vw;
+    height: 4vw;
+
+    border-radius: 1vw;
+}
+
+.Home-ContactSection-FormSection {
+    width: 44.47vw;
+
+    margin-top: 0.5vw;
+}
+
+.Home-ContactSection-FormSection-Form-Element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 1.5vw;
+}
+
+.Home-ContactSection-FormSection-Form-Element input{
+    margin-top: 0.5vw;
+}
+
+.Home-ContactSection-FormSection-Form-Element textarea{
+    margin-top: 0.5vw;
+}
+
+.Home-ContactSection-FormSection-Form button {
+    display: block;
+
+    width: 44.37vw;
+
+    margin-top: 1.5vw;
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+@media (max-width: 767px) {
+    .Home-HeroSection-Main {
+        flex-direction: column;
+
+        margin-top: 10vw;
+    }
+
+    .Home-HeroSection-Main-Info {
+        width: 90vw;
+    }
+
+    .Home-HeroSection-Main-Info h1 {
+        margin-bottom: 0vw;
+    
+        font-size: 0;
+        color: var(--Orange);
+    }
+
+    .Home-HeroSection-Main-Info h1::before {
+        content: "Empowering" "\A" "Every Mind" "\A" "with Technology";
+        white-space: pre;
+        font-size: 11.5vw;
+        display: block;
+        color: var(--Orange);
+        line-height: 11vw;
+    }
+
+    .Home-HeroSection-Main-Info p {
+        width: 90vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .Home-HeroSection-Main-Info-Links {
+        flex-direction: column;
+
+        width: 90vw;
+    }
+
+    .Home-HeroSection-Main-Info-Links-Workshop {
+        width: 84vw;
+
+        padding: 3vw;
+
+        color: var(--Black);
+        background-color: var(--Yellow);
+
+        font-weight: 800;
+
+        border: 0px solid var(--Black);
+        border-radius: 2vw;
+
+        text-align: center;
+        font-size: 4vw;
+
+        cursor: pointer;
+    }
+
+    .Home-HeroSection-Main-Info-Links-Volunteer {
+        width: 84vw;
+
+        margin-top: 2vw;
+        padding: 3vw;
+
+        color: var(--Black);
+        background-color: var(--BG);
+
+        font-weight: 800;
+
+        border: 1px solid var(--Black);
+        border-radius: 2vw;
+
+        text-align: center;
+        font-size: 4vw;
+
+        cursor: pointer;
+    }
+
+    .Home-HeroSection-Main img {
+        width: 90vw;
+        height: 100vw;
+
+        margin-top: 4vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .slide-container-Cards{
+        margin-top: 5vw;
+    }
+
+    .slide-container-Cards .slides-Cards{
+        width: 90vw;
+        height: 100vw;
+    }
+
+    .slide-container-Cards .slides-Cards {
+        border-radius: 2vw;
+    }
+
+    .Home-ImpactSection-Main {
+        flex-direction: column;
+
+        width: 90vw;
+
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .Home-ImpactSection-Title {
+        
+        margin-bottom: 5vw;
+    }
+
+    .Home-ImpactSection-Cards {
+        flex-direction: column;
+    }
+
+    .Home-ImpactSection-Arrow {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 18vw;
+        height: 20vw;
+        transform: rotate(90deg);
+        margin: 0 auto;
+    }
+
+    .Home-ImpactSection-Card {
+        width: 83vw;
+
+        padding: 3vw;
+
+        margin-bottom: 4vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Home-ImpactSection-Card h2 {
+        margin-top: 4vw;
+
+        font-size: 6.5vw;
+        font-weight: 800;
+    }
+
+    .Home-ImpactSection-Card span {
+        font-size: 7vw;
+    }
+
+    .Home-ImpactSection-Card p {
+        margin-top: 8vw;
+        font-size: 5vw;
+
+        font-weight: 600;
+    }
+
+    .homeo-Iframe {
+        width: 80vw;
+
+        margin: auto;
+        margin-bottom: 15vw;
+
+        padding: 5vw;
+        padding-top: 3vw;
+
+        background-color: var(--Orange);
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .homeo-Iframe h2{
+        width: 78vw;
+
+        margin: auto;
+        margin-bottom: 2vw;
+
+        color: var(--BG);
+
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .homeo-Iframe-Embed {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        width: 78vw;
+        height: 55vw;
+
+        margin: auto;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Home-MissionSection-Main {
+        width: 90vw;
+
+        margin: auto;
+    }
+
+    .Home-MissionSection-Info {
+        flex-direction: column;
+
+        margin-top: 5vw;
+    }
+
+    .Home-MissionSection-Info h2 {
+        width: 90vw;
+
+        margin-bottom: 4vw;
+    }
+
+    .Home-MissionSection-Info p {
+        width: 90vw;
+    }
+
+    .Home-MissionSection-Flex {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4vw;
+
+        width: 90vw;
+
+        margin-top: 4vw;
+    }
+
+    .Home-MissionSection-Section-One {
+        width: 90vw;
+        margin-top: 0;
+        align-self: flex-start;
+    }
+
+    .Home-MissionSection-Section-One-Cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Home-MissionSection-Section-One-Cards img {
+        width: 30vw;
+        height: 30vw;
+
+        margin: 2vw;
+
+        border-radius: 2vw;
+    }
+
+    .Home-MissionSection-Section-One-Cards p {
+        margin-top: 3vw;
+
+        font-size: 4.5vw;
+        text-align: center;
+        font-weight: 800;
+    }
+
+    .Home-MissionSection-Section-Two {
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2vw;
+        flex-wrap: nowrap;
+    }
+
+    .Home-MissionSection-Section-Two-Cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        width: 28vw;
+        flex: 1;
+
+        border: none;
+    }
+
+    .Home-MissionSection-Section-Two-Cards img {
+        width: 25vw;
+        height: 25vw;
+
+        margin: 2vw;
+
+        border-radius: 2vw;
+    }
+
+    .Home-MissionSection-Section-Two-Cards p {
+        font-size: 4vw;
+        font-weight: 800;
+        text-align: center;
+    }
+
+    .Home-VisionSection-Main {
+        margin-top: 10vw;
+    }
+
+    .Home-VisionSection-Main h2 {
+        
+        font-size: 7vw;
+        font-weight: 800;
+
+        margin-bottom: 6vw;
+        margin-top: 3vw;
+    }
+
+    .Home-VisionSection-Flex {
+        flex-direction: column;
+    }
+
+    .Home-VisionSection-Cards {
+        padding: 4vw;
+        width: 80vw;
+
+        margin-bottom: 2vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Home-VisionSection-Cards h3 {
+        margin: 0%;
+
+        color: var(--BG);
+    }
+
+    .Home-VisionSection-Cards ul {
+        margin-left: 4vw;
+    }
+
+    .Home-VisionSection-Cards li {
+        margin-left: 0vw;
+
+        color: var(--BG);
+    }
+
+    .Home-ChallengesSection-Main {
+        flex-direction: column;
+
+        width: 90vw;
+
+        margin: auto;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
+
+    .Home-ChallengesSection-Main-Info {
+        width: 90vw;
+    }
+
+    .Home-ChallengesSection-Main-Info h2 {
+        margin: 0%;
+
+    
+        line-height: 12vw;
+    }
+
+    .Home-ChallengesSection-Main-Flex {
+        display: flex;
+        flex-wrap: wrap;
+
+        width: 90vw;
+    }
+
+    .Home-ChallengesSection-Main-Card {
+        width: 84vw;
+        padding: 3vw;
+    }
+
+    .Home-ChallengesSection-Main-Card h2{
+        width: 84vw;
+
+        margin: 0%;
+
+        font-size: 13vw;
+    }
+
+    .Home-ChallengesSection-Main-Card p{
+        width: 84vw;
+
+        color: var(--BG);
+    }
+
+    .Home-EngagementSection-Main {
+        width: 90vw;
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+
+    .Home-EngagementSection-Title {
+        
+        margin-bottom: 3vw;
+        width: fit-content;
+        max-width: 85vw;
+    }
+
+    .Home-EngagementSection-Content {
+        flex-direction: column;
+        gap: 3vw;
+    }
+
+    .Home-EngagementSection-Strategy {
+        width: 90vw;
+    }
+
+    .Home-EngagementSection-Strategy h3 {
+        font-size: 4vw;
+        margin-bottom: 2vw;
+        white-space: normal;
+        line-height: 1.3;
+    }
+
+    .Home-EngagementSection-Strategy li {
+        font-size: 4vw;
+        margin-bottom: 1vw;
+        padding-left: 5vw;
+    }
+
+    .Home-EngagementSection-Strategy li::before {
+        font-size: 4.5vw;
+    }
+
+    .Home-EngagementSection-Chart {
+        width: 70vw;
+        padding: 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Home-EngagementSection-Chart img {
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .Home-AboutSection-Main {
+        flex-direction: column;
+        width: 90vw;
+
+        margin: auto;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
+
+    .Home-AboutSection-Main img {
+        width: 90vw;
+        height: 80vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Home-AboutSection-Info {
+        width: 90vw;
+
+        margin-top: 4vw;
+    }
+
+    .Home-AboutSection-Info h2 {
+        margin: 0%;
+
+    
+        line-height: 12vw;
+    }
+
+    .Home-FounderSection-Flex {
+        flex-direction: column;
+    }
+
+    .Home-FounderSection-Card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Home-FounderSection-Card {
+        width: 90vw;
+
+        border-radius: 2vw;
+    }
+
+    .Home-FounderSection-Card img {
+        width: 80vw;
+        height: 80vw;
+
+        margin: 4vw;
+
+        border-radius: 2vw;
+
+        object-position: center top;
+    }
+
+    .Home-FounderSection-Card-Info h3 {
+        width: 80vw;
+    }
+
+    .Home-FounderSection-Card-Info p {
+        width: 80vw;
+
+        margin-top: 1vw;
+        margin-bottom: 4vw;
+    }
+
+    .Home-FounderSection-Card-Info span {
+        display: block;
+
+        width: 80vw;
+
+        margin-bottom: 8vw;
+        
+        font-size: 5vw;
+    }
+
+    .Home-CollaburatorsSection-Main {
+        width: 90vw;
+
+        margin: auto;
+        margin-top: 7vw;
+        margin-bottom: 7vw;
+    }
+
+    .Home-CollaburatorsSection-Main h2 {
+        width: 90vw;
+ 
+        margin: auto;
+        margin-top: 10vw;
+        margin-bottom: 4vw;
+
+        text-align: center;
+    }
+
+    .Home-CollaburatorsSection-Flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .Home-CollaburatorsSection-Cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: stretch;
+        align-items: center;
+
+        width: 40vw;
+
+        margin: 2vw;
+    }
+
+    .Home-CollaburatorsSection-Cards img {
+        width: 40vw;
+
+        border-radius: 2vw;
+    }
+
+    .Home-CollaburatorsSection-Cards span {
+        margin-top: 4vw;
+
+        text-align: center;
+    }
+
+    .Home-AppSection-Main {
+        flex-direction: column;
+
+        width: 90vw;
+
+        margin: auto;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
+
+    .Home-AppSection-Main img {
+        width: 90vw;
+        height: 80vw;
+
+        margin-bottom: 4vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Home-AppSection-Info {
+        width: 90vw;
+    }
+
+    .Home-AppSection-Info h2 {
+        margin: 0%;
+
+    
+        line-height: 10vw;
+    }
+
+    .Home-AppSection-Info a {
+        width: 84vw;
+
+        padding: 3vw;
+
+        border: 0px solid var(--Black);
+        border-radius: 2vw;
+
+        font-size: 4vw;
+    }
+
+    .Home-WorkshopSection-Main {
+        flex-direction: column;
+
+        width: 90vw;
+
+        margin: auto;
+        margin-top: 15vw;
+        margin-bottom: 15vw;
+    }
+
+    .Home-WorkshopSection-Info {
+        width: 90vw;
+    }
+
+    .Home-WorkshopSection-Info h2 {
+        margin: 0%;
+
+        
+        line-height: 12vw;
+    }
+
+    .Home-WorkshopSection-Social span {
+        margin-bottom: 1.5vw;
+    }
+
+    .Home-WorkshopSection-Social-Icons {
+        display: flex;
+        justify-content: space-between;
+
+        width: 18vw;
+    }
+
+    .Home-WorkshopSection-Social-Icons a img {
+        width: 8vw;
+        height: 8vw;
+
+        border-radius: 2vw;
+    }
+
+    .Home-WorkshopSection-Form-Element {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        margin-top: 1.5vw;
+    }
+
+    .Home-WorkshopSection-Form-Element input{
+        margin-top: 1.5vw;
+    }
+
+    .Home-WorkshopSection-Form button {
+        display: block;
+
+        width: 90vw;
+
+        margin-top: 3vw;
+        padding: 3vw;
+
+        border: 0px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Home-VolunteerHighlight-Main {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .Home-VolunteerHighlight-Info {
+        flex-direction: column;
+
+        margin-bottom: 4vw;
+    }
+
+    .Home-VolunteerHighlight-Info h2 {
+        width: 90vw;
+
+        margin: 0vw;
+
+    
+        line-height: 9vw;
+    }
+
+    .Home-VolunteerHighlight-Info-Description {
+        width: 90vw;
+    }
+
+    .Home-VolunteerHighlight-Info-Description a {
+        width: 84vw;
+
+        margin-bottom: 4vw;
+        padding: 3vw;
+
+        border-radius: 2vw;
+
+        font-size: 4vw;
+    }
+
+    .Home-VolunteerHighlight {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .Home-VolunteerHighlight-Card {
+        width: 84vw;
+
+        margin-bottom: 2vw;
+
+        padding: 3vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Home-VolunteerHighlight-Split {
+        width: fit-content;
+    }
+
+    .Home-VolunteerHighlight-Card h3{
+        margin-bottom: 0vw;
+    }
+
+    .Home-VolunteerHighlight-Card-Four {
+        height: 80vw;
+    }
+
+    .Home-DonateHighlight {
+        margin: auto;
+        margin-bottom: 10vw;
+        margin-top: 5vw;
+    }
+
+    .Home-DonateHighlight-Info {
+        flex-direction: column;
+    }
+
+    .Home-DonateHighlight-Info-DetailsMain  {
+        width: 90vw;
+    }
+
+    .Home-DonateHighlight-Info-DetailsMain h2 {
+        font-size: 7vw;
+
+        margin-bottom: 2vw;
+    }
+
+    .Home-DonateHighlight-Info-Details {
+        width: 90vw;
+
+        margin-top: 0vw;
+    }
+
+    .Home-DonateHighlight-Info-Details button {
+        display: block;
+
+        width: 90vw;
+
+        margin-top: 1.5vw;
+        padding: 3vw;
+
+        border: 0px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Home-DonateHighlight-InfoCards {
+        flex-direction: column;
+
+        margin-top: 5vw;
+
+        border-radius: 2vw;
+    }
+
+    .Home-DonateHighlight-InfoCards-Main {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        width: 82.5vw;
+
+        margin-bottom: 2vw;
+
+        padding: 3vw;
+        padding-top: 35vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 1vw;
+    }
+
+    .Home-DonateHighlight-InfoCards-Main h3 {
+        margin-top: 15vw;
+    }
+
+    .Home-DonateHighlight-InfoCards-Main p {
+        margin: 0vw;
+        margin-top: 2vw;
+    }
+
+    .Home-DonateHighlight-InfoCards-Flex {
+        display: flex;
+    }
+
+    .Home-DonateHighlight-InfoCards-Flex-Cards {
+        padding: 3vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 1vw;
+    }
+
+    .Home-DonateHighlight-InfoCards-Flex-Cards h3 {
+        margin: 0vw;
+        margin-top: 6vw;
+
+        font-size: 7vw;
+    }
+
+    .Home-DonateHighlight-InfoCards-Flex-Cards:nth-child(2) {
+        background-color: var(--Blue);
+
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+
+    .Home-ContactSection-Flex {
+        flex-direction: column;
+
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+    }
+
+    .Home-ContactSection-Info-Flex {
+        width: 90vw;
+    }
+
+    .Home-ContactSection-Info-Element {
+        margin-top: 3vw;
+    }
+
+    .Home-ContactSection-Info-Email {
+        margin-top: 0vw;
+    }
+
+    .Home-ContactSection-Info-Element span{
+        margin-bottom: 1.5vw;
+    }
+
+    .Home-ContactSection-FormSection {
+        width: 90vw;
+
+        margin-top: 1.5vw;
+    }
+
+    .Home-ContactSection-Info-Social-Icons {
+        width: 18vw;
+    }
+
+    .Home-ContactSection-Info-Social-Icons img {
+        width: 8vw;
+        height: 8vw;
+
+        border-radius: 1.5vw;
+    }
+
+    .Home-ContactSection-FormSection-Form-Element {
+        margin-top: 4vw;
+    }
+
+    .Home-ContactSection-FormSection-Form-Element input{
+        margin-top: 1.5vw;
+    }
+
+    .Home-ContactSection-FormSection-Form-Element textarea{
+        margin-top: 1.5vw;
+    }
+
+    .Home-ContactSection-FormSection-Form button {
+        width: 90vw;
+
+        margin-top: 3vw;
+        padding: 3vw;
+
+        border-radius: 2vw;
+    }
+}

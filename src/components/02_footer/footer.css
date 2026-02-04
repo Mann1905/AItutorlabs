@@ -1,0 +1,235 @@
+.Footer-Section-Main {
+    display: flex;
+    justify-content: space-between;
+
+    width: 90vw;
+
+    margin: auto;
+
+    padding: 3vw 0vw 3vw 0vw;
+
+    border-top: 1px solid var(--Black);
+    border-bottom: 1px solid var(--Black);
+}
+
+.Footer-Section-Internals {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 21.7vw;
+
+    margin-top: 2vw;
+}
+
+.Footer-Section-Internals a {
+    display: block;
+
+    margin-bottom: 0.5vw;
+}
+
+.Footer-Section-Internals-Volunteer {
+    width: 17vw;
+
+    padding: 1vw;
+
+    color: var(--Black);
+    background-color: var(--BG);
+
+    border: 1px solid var(--Black);
+    border-radius: 1vw;
+
+    font-size: 1vw;
+
+    cursor: pointer;
+}
+
+.Footer-Section-Internals-Donate {
+    width: 17vw;
+
+    margin-top: 1vw;
+    padding: 1vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    font-size: 1vw;
+
+    cursor: pointer;
+}
+
+.Footer-Section-Contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 21.7vw;
+
+    margin-top: 2vw;
+}
+
+.Footer-Section-Contact-Element {
+    margin-top: 3vw;
+}
+
+.Footer-Section-Contact-Email {
+    margin-top: 0vw;
+}
+
+.Footer-Section-Contact-Element span{
+    display: block;
+
+    margin: 0%;
+    margin-bottom: 0.5vw;
+}
+
+.Footer-Section-Contact-Social-Icons {
+    width: 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Footer-Section-Contact-Social-Icons img {
+    width: 4vw;
+    height: 4vw;
+
+    border-radius: 1vw;
+}
+
+.Footer-Section-Terms {
+    display: flex;
+    justify-content: right;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-bottom: 5vw;
+}
+
+.Footer-Section-Terms a {
+    width: 10vw;
+
+    margin-top: 1vw;
+
+    color: #BDBDBD;
+
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: right;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+@media (max-width: 767px) {
+    .Footer-Section-Main {
+        flex-direction: column;
+
+        padding: 3vw 0vw 3vw 0vw;
+
+        border-top: 1px solid var(--Black);
+        border-bottom: 1px solid var(--Black);
+    }
+
+    .Footer-Section-Internals {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: 90vw;
+
+        margin-top: 2vw;
+    }
+
+    .Footer-Section-Internals a {
+        display: block;
+
+        margin-bottom: 1.5vw;
+    }
+
+    .Footer-Section-Internals-Volunteer {
+        width: 90vw;
+
+        margin-top: 4vw;
+        padding: 3vw;
+
+        border: 1px solid var(--Black);
+        border-radius: 2vw;
+
+        font-size: 3vw;
+    }
+
+    .Footer-Section-Internals-Donate {
+        width: 90vw;
+
+        margin-top: 2vw;
+        padding: 3vw;
+
+        border: 0vw solid var(--Black);
+        border-radius: 2vw;
+
+        font-size: 3vw;
+    }
+
+    .Footer-Section-Contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        width: 90vw;
+
+        margin-top: 2vw;
+    }
+
+    .Footer-Section-Contact-Element {
+        margin-top: 3vw;
+    }
+
+    .Footer-Section-Contact-Email {
+        margin-top: 2vw;
+    }
+
+    .Footer-Section-Contact-Element span{
+        margin-bottom: 1.5vw;
+    }
+
+    .Footer-Section-Contact-Social-Icons {
+        width: 18vw;
+        display: flex;
+        justify-content: space-between;
+
+        margin-bottom: 2vw;
+    }
+
+    .Footer-Section-Contact-Social-Icons img {
+        width: 8vw;
+        height: 8vw;
+
+        border-radius: 1vw;
+    }
+
+    .Footer-Section-Terms {
+        display: flex;
+        justify-content: right;
+
+        width: 90vw;
+
+        margin: auto;
+        margin-bottom: 5vw;
+    }
+
+    .Footer-Section-Terms a {
+        width: 28vw;
+
+        margin-top: 1vw;
+        margin-bottom: 5vw;
+
+        color: #BDBDBD;
+
+        font-size: 3vw;
+        font-weight: 600;
+        text-align: right;
+    }
+}

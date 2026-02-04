@@ -1,0 +1,538 @@
+.Volunteer-Main {
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 2.5vw;
+}
+
+.Volunteer-Main-Banner {
+    width: 90vw;
+    height: 20vw;
+
+    margin: auto;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Volunteer-MainSection-Flex {
+    display: flex;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 2.5vw;
+    margin-bottom: 3vw;
+}
+
+.Volunteer-MainSection-Info-Flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 44.47vw;
+}
+
+.Volunteer-MainSection-Info-Flex h1 {
+    color: var(--Orange);
+
+    font-size: 4vw;
+    line-height: 4vw;
+}
+
+.Volunteer-MainSection-Info-Flex p {
+    width: 38vw;
+}
+
+.Volunteer-MainSection-Info-Element {
+    margin-top: 3vw;
+}
+
+.Volunteer-MainSection-Info-Email {
+    margin-top: 2vw;
+}
+
+.Volunteer-MainSection-Info-Element span{
+    display: block;
+
+    margin: 0%;
+    margin-bottom: 0.5vw;
+}
+
+.Volunteer-MainSection-Info-Social-Icons {
+    width: 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Volunteer-MainSection-Info-Social-Icons img {
+    width: 4vw;
+    height: 4vw;
+
+    border-radius: 1vw;
+}
+
+.Volunteer-MainSection-FormSection {
+    width: 44.47vw;
+
+    margin-top: 0.5vw;
+}
+
+.Volunteer-MainSection-FormSection-Form-Flex {
+    display: flex;
+    justify-content: space-between;
+
+    width: 44.37vw;
+}
+
+.Volunteer-MainSection-FormSection-Form-Flex input{
+    width: 19.5vw;
+}
+
+.Volunteer-MainSection-FormSection-Form-Element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 1.5vw;
+}
+
+.Volunteer-MainSection-FormSection-Form-Flex div {
+    margin-top: 0vw;
+}
+
+.Volunteer-MainSection-FormSection-Form-Element label{
+    margin-bottom: 0.5vw;
+}
+
+.Volunteer-MainSection-FormSection-Form button {
+    display: block;
+
+    width: 44.37vw;
+
+    margin-top: 1.5vw;
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.Volunteer-VolunteerHighlight {
+    display: flex;
+    justify-content: space-between;
+
+    width: 90vw;
+    
+    margin: auto;
+}
+
+.Volunteer-VolunteerHighlight-Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    width: 25vw;
+
+    padding: 2vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Volunteer-VolunteerHighlight-Split {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Volunteer-VolunteerHighlight-Card h3{
+    margin-bottom: 0vw;
+}
+
+.Volunteer-VolunteerHighlight-Card-One {
+    background-color: var(--Pink);
+}
+
+.Volunteer-VolunteerHighlight-Card-Two {
+    margin-bottom: 2vw;
+
+    background-color: var(--Orange);
+}
+
+.Volunteer-VolunteerHighlight-Card-Two h3 {
+    color: var(--BG);
+}
+
+.Volunteer-VolunteerHighlight-Card-Two p {
+    color: var(--BG);
+}
+
+.Volunteer-VolunteerHighlight-Card-Three {
+    background-color: var(--Blue);
+}
+
+.Volunteer-VolunteerHighlight-Card-Three h3 {
+    color: var(--BG);
+}
+
+.Volunteer-VolunteerHighlight-Card-Three p {
+    color: var(--BG);
+}
+
+.Volunteer-VolunteerHighlight-Card-Four {
+    background-color: var(--Green);
+}
+
+.Volunteer-VolunteerHighlight-Card-Four h3 {
+    color: var(--BG);
+}
+
+.Volunteer-VolunteerHighlight-Card-Four p {
+    color: var(--BG);
+}
+
+.Volunteer-DonateHighlight {
+    width: 90vw;
+
+    margin: auto;
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+}
+
+.Volunteer-DonateHighlight-Info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Volunteer-DonateHighlight-Info-DetailsMain  {
+    width: 50vw;
+}
+
+.Volunteer-DonateHighlight-Info-DetailsMain h2 {
+    color: var(--Orange);
+
+    font-size: 5vw;
+}
+
+.Volunteer-DonateHighlight-Info-Details {
+    width: 38vw;
+
+    margin-top: 4.5vw;
+}
+
+.Volunteer-DonateHighlight-Info-Details button{
+    display: block;
+
+    width: 38vw;
+
+    margin-top: 1.5vw;
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.Volunteer-DonateHighlight-InfoCards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Volunteer-DonateHighlight-InfoCards-Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    width: 60vw;
+    padding: 3vw;
+
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)), url("../../images/steamvision/D2.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Volunteer-DonateHighlight-InfoCards-Main h3 {
+    margin: 0vw;
+
+    color: var(--BG);
+}
+
+.Volunteer-DonateHighlight-InfoCards-Main p {
+    margin: 0vw;
+    margin-top: 2vw;
+
+    color: var(--BG);
+}
+
+.Volunteer-DonateHighlight-InfoCards-Flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Volunteer-DonateHighlight-InfoCards-Flex-Cards {
+    padding: 1.5vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Volunteer-DonateHighlight-InfoCards-Flex-Cards h3 {
+    margin: 0vw;
+    margin-top: 3vw;
+
+    color: var(--BG);
+
+    font-size: 3.5vw;
+}
+
+.Volunteer-DonateHighlight-InfoCards-Flex-Cards p {
+    margin: 0vw;
+
+    color: var(--BG);
+}
+
+.Volunteer-DonateHighlight-InfoCards-Flex-Cards:nth-child(1) {
+    background-color: var(--Green);
+}
+
+.Volunteer-DonateHighlight-InfoCards-Flex-Cards:nth-child(2) {
+    background-color: var(--Blue);
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+.Volunteer-DonateHighlight-InfoCards-Flex-Cards:nth-child(3) {
+    background-color: var(--Orange);
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+@media (max-width: 767px) {
+    .Volunteer-Main {
+        margin-top: 5vw;
+    }
+
+    .Volunteer-Main-Banner {
+        height: 40vw;
+
+        border-radius: 2vw;
+    }
+
+    .Volunteer-MainSection-Flex {
+        flex-direction: column;
+
+        margin: auto;
+        margin-top: 2.5vw;
+        margin-bottom: 3vw;
+    }
+
+    .Volunteer-MainSection-Info-Flex {
+        width: 90vw;
+    }
+
+    .Volunteer-MainSection-Info-Flex h1 {
+        font-size: 10vw;
+        line-height: 10vw;
+    }
+
+    .Volunteer-MainSection-Info-Flex p {
+        width: 90vw;
+    }
+
+    .Volunteer-MainSection-Info-Element {
+        margin-top: 3vw;
+    }
+
+    .Volunteer-MainSection-Info-Email {
+        margin-top: 0vw;
+    }
+
+    .Volunteer-MainSection-Info-Element span{
+        margin-bottom: 1.5vw;
+    }
+
+    .Volunteer-MainSection-Info-Social-Icons {
+        width: 18vw;
+    }
+
+    .Volunteer-MainSection-Info-Social-Icons img {
+        width: 8vw;
+        height: 8vw;
+
+        border-radius: 1.5vw;
+    }
+
+    .Volunteer-MainSection-FormSection {
+        width: 90vw;
+
+        margin-top: 10vw;
+    }
+
+    .Volunteer-MainSection-FormSection-Form-Flex {
+        flex-direction: column;
+
+        width: 90vw;
+    }
+
+    .Volunteer-MainSection-FormSection-Form-Flex input{
+        width: 83.5vw;
+    }
+
+    .Volunteer-MainSection-FormSection-Form-Element:nth-child(1) input {
+        margin-bottom: 4vw;
+    }
+
+    .Volunteer-MainSection-FormSection-Form-Element {
+        margin-top: 4vw;
+    }
+
+    .Volunteer-MainSection-FormSection-Form-Element label{
+        margin-bottom: 1.5vw;
+    }
+
+    .Volunteer-MainSection-FormSection-Form button {
+        width: 90vw;
+
+        margin-top: 3vw;
+        padding: 3vw;
+
+        border-radius: 2vw;
+    }
+
+    .Volunteer-VolunteerHighlight {
+        flex-direction: column;
+    }
+
+    .Volunteer-VolunteerHighlight-Card {
+        width: 82.5vw;
+
+        margin-bottom: 2vw;
+
+        padding: 3vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Volunteer-VolunteerHighlight-Split {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .Volunteer-VolunteerHighlight-Card h3{
+        margin-bottom: 0vw;
+    }
+
+    .Volunteer-DonateHighlight {
+        margin: auto;
+        margin-bottom: 10vw;
+        margin-top: 5vw;
+    }
+
+    .Volunteer-DonateHighlight-Info {
+        flex-direction: column;
+    }
+
+    .Volunteer-DonateHighlight-Info-DetailsMain  {
+        width: 90vw;
+    }
+
+    .Volunteer-DonateHighlight-Info-DetailsMain h2 {
+        font-size: 7vw;
+
+        margin-bottom: 2vw;
+    }
+
+    .Volunteer-DonateHighlight-Info-Details {
+        width: 90vw;
+
+        margin-top: 0vw;
+    }
+
+    .Volunteer-DonateHighlight-Info-Details button{
+        display: block;
+
+        width: 90vw;
+
+        margin-top: 1.5vw;
+        padding: 3vw;
+
+        border: 0px solid var(--Black);
+        border-radius: 1vw;
+    }
+
+    .Volunteer-DonateHighlight-InfoCards {
+        flex-direction: column;
+
+        margin-top: 5vw;
+    }
+
+    .Volunteer-DonateHighlight-InfoCards-Main {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        width: 82.5vw;
+
+        margin-bottom: 2vw;
+
+        padding: 3vw;
+        padding-top: 35vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Volunteer-DonateHighlight-InfoCards-Main h3 {
+        margin-top: 15vw;
+    }
+
+    .Volunteer-DonateHighlight-InfoCards-Main p {
+        margin: 0vw;
+        margin-top: 2vw;
+    }
+
+    .Volunteer-DonateHighlight-InfoCards-Flex {
+        display: flex;
+    }
+
+    .Volunteer-DonateHighlight-InfoCards-Flex-Cards {
+        padding: 3vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Volunteer-DonateHighlight-InfoCards-Flex-Cards h3 {
+        margin: 0vw;
+        margin-top: 6vw;
+
+        font-size: 7vw;
+    }
+
+    .Volunteer-DonateHighlight-InfoCards-Flex-Cards:nth-child(2) {
+        background-color: var(--Blue);
+
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+    }
+}

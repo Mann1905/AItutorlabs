@@ -1,0 +1,244 @@
+:root {
+  --PureWhite: #FFFFFF;
+  --Black: #141414;
+  --Grey: #8C8C8C;
+  --BG: #F8F2F2;
+  --Yellow: #F8C643;
+  --Orange: #F16C46;
+  --Green: #42AD81;
+  --Blue: #0670B0;
+  --Pink: #F4BAAF;
+}
+
+html {
+  margin: 0%;
+  padding: 0vw;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0%;
+  padding: 0vw;
+  background-color: var(--BG);
+}
+
+h1 {
+  font-family: "Red Hat Display";
+  font-size: 6.66vw;
+  font-weight: 600;
+  margin: 0;
+
+  color: var(--Black);
+}
+
+h2 {
+  font-family: "Red Hat Display";
+  font-size: 3.3vw;
+  font-weight: 800;
+  color: var(--Black);
+}
+
+h3 {
+  font-family: "Red Hat Display";
+  font-weight: 800;
+  font-size: 2vw;
+  color: var(--Black);
+}
+
+p {
+  font-family: "Red Hat Display";
+  font-size: 1.25vw;
+  font-weight: 600;
+  color: var(--Black);
+}
+
+span {
+  font-family: "Red Hat Display";
+  font-size: 1.25vw;
+  font-weight: 600;
+  color: #8C8C8C;
+}
+
+a {
+  display: block;
+  font-family: "Red Hat Display";
+  font-size: 1.25vw;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--Black);
+}
+
+button {
+  display: block;
+  font-family: "Red Hat Display";
+  font-size: 1.25vw;
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--Black);
+}
+
+label {
+  font-family: "Red Hat Display";
+  font-size: 1.25vw;
+  font-weight: 600;
+
+  color: var(--Black);
+}
+
+ul {
+  margin: 2vw 0vw 1vw 2vw;
+  padding: 0vw;
+}
+
+li {
+  margin-bottom: 1vw;
+  padding-left: 0vw;
+
+  font-family: "Red Hat Display";
+  font-size: 1.25vw;
+  font-weight: 600;
+}
+
+input {
+  padding: 1vw;
+  padding-left: 1vw;
+
+  font-family: "Red Hat Display";
+  font-size: 1vw;
+  font-weight: 400;
+
+  color: #8C8C8C;
+  background-color: var(--PureWhite);
+
+  border: 1px solid var(--Pink);
+  border-radius: 0.5vw;
+}
+
+textarea {
+  padding: 1vw;
+  padding-left: 1vw;
+
+  font-family: "Red Hat Display";
+  font-size: 1vw;
+  font-weight: 400;
+
+  color: #8C8C8C;
+  background-color: var(--PureWhite);
+
+  border: 1px solid var(--Pink);
+  border-radius: 0.5vw;
+
+  resize: none
+}
+
+select {
+  padding: 1vw;
+  padding-left: 1vw;
+
+  font-family: "Red Hat Display";
+  font-size: 1vw;
+  font-weight: 400;
+
+  color: #8C8C8C;
+  background-color: var(--PureWhite);
+
+  border: 1px solid var(--Pink);
+  border-radius: 0.5vw;
+}
+
+img {
+  width: 20vw;
+  object-fit: cover;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 12vw;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-size: 7vw;
+    font-weight: 800;
+  }
+
+  h3 {
+    font-size: 6vw;
+    font-weight: 800;
+  }
+
+  p {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+
+  span {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+
+  a {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+
+  ul {
+    margin: 4vw 0vw 0vw 5vw;
+    padding: 0vw;
+  }
+
+  li {
+    margin-bottom: 4vw;
+
+    font-size: 4vw;
+  }
+
+  button {
+    font-size: 4vw;
+    font-weight: 800;
+  }
+
+  label {
+    font-size: 4vw;
+    font-weight: 600;
+  }
+
+  input {
+    padding: 3vw;
+    padding-left: 3vw;
+
+    font-size: 3vw;
+    font-weight: 400;
+
+    border: 1px solid var(--Pink);
+    border-radius: 2vw;
+  }
+
+  textarea {
+    padding: 3vw;
+    padding-left: 3vw;
+
+    font-size: 3vw;
+    font-weight: 400;
+
+    border: 1px solid var(--Pink);
+    border-radius: 2vw;
+  }
+
+  select {
+    padding: 3vw;
+    padding-left: 3vw;
+
+    font-size: 3vw;
+    font-weight: 400;
+
+    border: 1px solid var(--Pink);
+    border-radius: 2vw;
+  }
+
+  img {
+    width: 20vw;
+  }
+}

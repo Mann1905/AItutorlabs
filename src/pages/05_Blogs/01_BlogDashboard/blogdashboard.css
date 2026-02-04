@@ -1,0 +1,334 @@
+.blogdashboard-Main {
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 3vw;
+}
+
+.blogdashboard-Latest-Flex {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+}
+
+.blogdashboard-Latest-Card-Long {
+    width: 59vw;
+
+    background-color: var(--PureWhite);
+
+    border: 3px solid var(--Pink);
+
+    border-radius: 1vw;
+}
+
+.blogdashboard-Latest-Card {
+    width: 29vw;
+
+    background-color: var(--PureWhite);
+
+    border: 3px solid var(--Pink);
+
+    border-radius: 1vw;
+}
+
+.blogdashboard-Latest-Card-Long-Arrow {
+    position: relative;
+
+    top: 3.5%;
+    left: 90%;
+
+    width: 4vw;
+    height: 4vw;
+
+    border: 3px solid var(--Grey);
+    border-radius: 100vw;
+}
+
+.blogdashboard-Latest-Card-Arrow {
+    position: relative;
+
+    top: 3.5%;
+    left: 82%;
+
+    width: 4vw;
+    height: 4vw;
+
+    border: 3px solid var(--Grey);
+    border-radius: 100vw;
+}
+
+.blogdashboard-Latest-Card-Details {
+    padding: 0vw 2vw 0vw 2vw;
+}
+
+.blogdashboard-Latest-Card-Cover {
+    width: 100%;
+    height: 20vw;
+
+    margin-top: -4.6vw;
+
+    border-radius: 1vw 1vw 0vw 0vw
+}
+
+.blogdashboard-Grid-Navigation {
+    display: flex;
+    justify-content: space-between;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 8vw;
+}
+
+.blogdashboard-Grid-Navigation h2 {
+    width: 90vw;
+
+    margin: auto;
+}
+
+.blogdashboard-Grid-Navigation-Buttons {
+    display: flex;
+    justify-content: space-between;
+
+    width: 15vw;
+} 
+
+.blogdashboard-Grid-Navigation-Buttons button {
+    border: 0px;
+    border-radius: 100vw;
+}
+
+.blogdashboard-Grid-Navigation-Buttons button img {
+    width: 5vw;
+    height: 5vw;
+
+    border-radius: 100vw;
+}
+
+.blogdashboard-Grid-Main {
+    width: 95%;
+
+    margin-left: 5%;
+    margin-top: 0vw;
+    
+    overflow-x: hidden;
+}
+
+.blogdashboard-Grid-Flex {
+    width: max-content;
+
+    display: flex;
+    justify-content: start;
+    flex-wrap: nowrap;
+
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+}
+
+.blogdashboard-Grid-Card {
+    width: 28vw;
+
+    margin: 1vw;
+
+    background-color: var(--PureWhite);
+
+    border: 3px solid var(--Pink);
+    border-radius: 1vw;
+}
+
+.blogdashboard-Grid-Card-Arrow {
+    position: relative;
+
+    top: 3.5%;
+    left: 82%;
+
+    width: 4vw;
+    height: 4vw;
+
+    border: 3px solid var(--Grey);
+    border-radius: 100vw;
+}
+
+.blogdashboard-Grid-Card-Details {
+    padding: 0vw 2vw 0vw 2vw;
+
+    text-overflow: ellipsis;
+}
+
+.blogdashboard-Grid-Card-Details h3 {
+    color: var(--Black);
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.blogdashboard-Grid-Card-Cover {
+    width: 100%;
+    height: 19vw;
+
+    margin-top: -4.6vw;
+
+    border-radius: 1vw 1vw 0vw 0vw
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+@media (max-width: 767px) {
+    .blogdashboard-Main {
+        width: 90vw;
+
+        margin: auto;
+        margin-top: 3vw;
+    }
+
+    .blogdashboard-Latest-Flex {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        margin-bottom: 3vw;
+        margin-top: 1vw;
+    }
+
+    .blogdashboard-Latest-Card-Long {
+        width: 90vw;
+
+        margin-bottom: 2vw;
+
+        border: 1px solid var(--Pink);
+
+        border-radius: 2vw;
+    }
+
+    .blogdashboard-Latest-Card {
+        width: 90vw;
+
+        border: 1px solid var(--Pink);
+
+        border-radius: 2vw;
+    }
+
+    .blogdashboard-Latest-Card-Long-Arrow {
+        position: relative;
+
+        top: 50%;
+        left: 87%;
+
+        width: 8vw;
+        height: 8vw;
+        margin-top: 2vw;
+
+        border: 1px solid var(--Pink);
+        border-radius: 100vw;
+
+        z-index: 1;
+    }
+
+    .blogdashboard-Latest-Card-Arrow {
+        position: relative;
+
+        top: 50%;
+        left: 87%;
+
+        width: 8vw;
+        height: 8vw;
+        margin-top: 2vw;
+
+        border: 1px solid var(--Pink);
+        border-radius: 100vw;
+    }
+
+    .blogdashboard-Latest-Card-Details {
+        padding: 0vw 4vw 0vw 4vw;
+    }
+
+    .blogdashboard-Latest-Card-Cover {
+        width: 100%;
+        height: 30vw;
+
+        margin-top: -12vw;
+
+        border-radius: 1vw 1vw 0vw 0vw
+    }
+
+    .blogdashboard-Grid-Navigation {
+        display: flex;
+        justify-content: space-between;
+
+        width: 90vw;
+
+        margin: auto;
+        margin-top: 8vw;
+    }
+
+    .blogdashboard-Grid-Navigation h2 {
+        width: 90vw;
+
+        margin: auto;
+    }
+
+    .blogdashboard-Grid-Navigation-Buttons {
+        display: flex;
+        justify-content: space-between;
+
+        width: 28vw;
+    } 
+
+    .blogdashboard-Grid-Navigation-Buttons button {
+        border: 0px;
+        border-radius: 100vw;
+    }
+
+    .blogdashboard-Grid-Navigation-Buttons button img {
+        width: 8vw;
+        height: 8vw;
+
+        border-radius: 100vw;
+    }
+
+    .blogdashboard-Grid-Main {
+        width: 95%;
+
+        margin-left: 5%;
+        margin-top: 0vw;
+    }
+
+    .blogdashboard-Grid-Card {
+        width: 75vw;
+
+        margin: 2vw;
+
+        border: 1px solid var(--Pink);
+        border-radius: 2vw;
+    }
+
+    .blogdashboard-Grid-Card-Arrow {
+        position: relative;
+
+        top: 3.5%;
+        left: 85%;
+
+        width: 8vw;
+        height: 8vw;
+
+        border: 1px solid var(--Pink);
+        border-radius: 100vw;
+    }
+
+    .blogdashboard-Grid-Card-Cover {
+        width: 100%;
+        height: 50vw;
+
+        margin-top: -10vw;
+
+        border-radius: 2vw 2vw 0vw 0vw
+    }
+}

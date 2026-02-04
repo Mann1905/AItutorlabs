@@ -1,0 +1,556 @@
+.Donate-Main {
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 2.5vw;
+}
+
+.Donate-Main-Banner {
+    width: 90vw;
+    height: 20vw;
+
+    margin: auto;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Donate-MainSection-Flex {
+    display: flex;
+
+    width: 90vw;
+
+    margin: auto;
+    margin-top: 2.5vw;
+    margin-bottom: 3vw;
+}
+
+.Donate-MainSection-Info-Flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 44.47vw;
+}
+
+.Donate-MainSection-Info-Flex h1 {
+    color: var(--Orange);
+
+    line-height: 6vw;
+}
+
+.Donate-MainSection-Info-Flex p {
+    width: 38vw;
+}
+
+.Donate-MainSection-Info-Element {
+    margin-top: 3vw;
+}
+
+.Donate-MainSection-Info-Email {
+    margin-top: 2vw;
+}
+
+.Donate-MainSection-Info-Element span{
+    display: block;
+
+    margin: 0%;
+    margin-bottom: 0.5vw;
+}
+
+.Donate-MainSection-Info-Social-Icons {
+    width: 9vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Donate-MainSection-Info-Social-Icons img {
+    width: 4vw;
+    height: 4vw;
+
+    border-radius: 1vw;
+}
+
+.Donate-MainSection-FormSection {
+    width: 44.47vw;
+
+    margin-top: 0.5vw;
+}
+
+.Donate-MainSection-FormSection-Form-Flex {
+    display: flex;
+    justify-content: space-between;
+
+    width: 44.37vw;
+}
+
+.Donate-MainSection-FormSection-Form-Flex input{
+    width: 19.5vw;
+}
+
+.Donate-MainSection-FormSection-Form-Element {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 1.5vw;
+}
+
+.Donate-MainSection-FormSection-Form-Element label{
+    margin-bottom: 0.5vw;
+}
+
+.Donate-MainSection-FormSection-Form button {
+    display: block;
+
+    width: 44.37vw;
+
+    margin-top: 1.5vw;
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.Donate-HowSection {
+    width: 90vw;
+    
+    margin: auto;
+}
+
+.Donate-HowSection-Flex-Card-offset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: -5.5vw;
+    left: 4.5vw;
+
+    width: 7vw;
+    height: 7vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 20vw;
+    
+    color: var(--Black);
+    background-color: var(--BG);
+
+    font-size: 3vw;
+    text-align: center;
+}
+
+.Donate-HowSection h2 {
+    margin-top: 0vw;
+
+    text-align: center;
+}
+
+.Donate-HowSection-Flex {
+    display: flex;
+    justify-content: space-between;
+
+    width: 65vw;
+
+    margin: auto;
+    margin-top: 5vw;
+}
+
+.Donate-HowSection-Flex-Card {
+    width: 16.5vw;
+
+    padding: 2vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Donate-HowSection-Flex-Card-Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10vw;
+}
+
+.Donate-HowSection-Flex-Card:nth-child(1) {
+    background-color: var(--Orange);
+}
+
+.Donate-HowSection-Flex-Card:nth-child(2) {
+    background-color: var(--Blue);
+
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.Donate-HowSection-Flex-Card:nth-child(3) {
+    background-color: var(--Green);
+}
+
+.Donate-HowSection-Flex-Card-Info h3 {
+    margin-top: -3vw;
+    margin-bottom: 0vw;
+
+    color: var(--BG);
+}
+
+.Donate-HowSection-Flex-Card-Info p {
+    margin: 0vw;
+
+    color: var(--BG);
+}
+
+.Donate-VolunteerHighlight-Main {
+    width: 90vw;
+    margin: auto;
+}
+
+.Donate-VolunteerHighlight-Info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+.Donate-VolunteerHighlight-Info h2 {
+    margin: 0vw;
+
+    font-size: 5vw;
+    line-height: 4.5vw;
+    color: var(--Orange);
+}
+
+.Donate-VolunteerHighlight-Info-Description {
+    width: 36vw;
+}
+
+.Donate-VolunteerHighlight-Info-Description a {
+    width: 33vw;
+
+    padding: 1.5vw;
+
+    color: var(--Black);
+    background-color: var(--Yellow);
+
+    border: 0px solid var(--Black);
+    border-radius: 1vw;
+
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 800;
+
+    cursor: pointer;
+}
+
+.Donate-VolunteerHighlight {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vw;
+    width: 90vw;
+    
+    
+}
+
+.Donate-VolunteerHighlight-Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+    width: 25vw;
+
+    padding: 2vw;
+
+    border: 3px solid var(--Black);
+    border-radius: 1vw;
+}
+
+.Donate-VolunteerHighlight-Split {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 35vw;
+}
+
+.Donate-VolunteerHighlight-Card h3{
+    margin-bottom: 0vw;
+}
+
+.Donate-VolunteerHighlight-Card-One {
+    width: 20vw;
+
+    background-color: var(--Pink);
+}
+
+.Donate-VolunteerHighlight-Card-Two {
+    margin-bottom: 2vw;
+
+    background-color: var(--Orange);
+}
+
+.Donate-VolunteerHighlight-Card-Two h3 {
+    color: var(--BG);
+}
+
+.Donate-VolunteerHighlight-Card-Two p {
+    color: var(--BG);
+}
+
+.Donate-VolunteerHighlight-Card-Three {
+    background-color: var(--Blue);
+}
+
+.Donate-VolunteerHighlight-Card-Three h3 {
+    color: var(--BG);
+}
+
+.Donate-VolunteerHighlight-Card-Three p {
+    color: var(--BG);
+}
+
+.Donate-VolunteerHighlight-Card-Four {
+    width: 35vw;
+
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)), url("../../images/steamvision/V2.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.Donate-VolunteerHighlight-Card-Four h3 {
+    color: var(--BG);
+}
+
+.Donate-VolunteerHighlight-Card-Four p {
+    color: var(--BG);
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+@media (max-width: 767px) {
+    .Donate-Main {
+        margin-top: 5vw;
+    }
+
+    .Donate-Main-Banner {
+        height: 40vw;
+
+        border-radius: 2vw;
+    }
+
+    .Donate-MainSection-Flex {
+        flex-direction: column;
+
+        margin: auto;
+        margin-top: 2.5vw;
+        margin-bottom: 3vw;
+    }
+
+    .Donate-MainSection-Info-Flex {
+        width: 90vw;
+    }
+
+    .Donate-MainSection-Info-Flex h1 {
+        line-height: 11vw;
+    }
+
+    .Donate-MainSection-Info-Flex p {
+        width: 90vw;
+    }
+
+    .Donate-MainSection-Info-Element {
+        margin-top: 3vw;
+    }
+
+    .Donate-MainSection-Info-Email {
+        margin-top: 0vw;
+    }
+
+    .Donate-MainSection-Info-Element span{
+        margin-bottom: 1.5vw;
+    }
+
+    .Donate-MainSection-Info-Social-Icons {
+        width: 18vw;
+    }
+
+    .Donate-MainSection-Info-Social-Icons img {
+        width: 8vw;
+        height: 8vw;
+
+        border-radius: 1.5vw;
+    }
+
+    .Donate-MainSection-FormSection {
+        width: 90vw;
+
+        margin-top: 2.5vw;
+    }
+
+    .Donate-MainSection-FormSection-Form-Flex {
+        flex-direction: column;
+
+        width: 90vw;
+    }
+
+    .Donate-MainSection-FormSection-Form-Flex input{
+        width: 83.5vw;
+    }
+
+    .Donate-MainSection-FormSection-Form-Element {
+        margin-top: 4vw;
+    }
+
+    .Donate-MainSection-FormSection-Form-Element label{
+        margin-bottom: 1.5vw;
+    }
+
+    .Donate-MainSection-FormSection-Form button {
+        width: 90vw;
+
+        margin-top: 3vw;
+        padding: 3vw;
+
+        border-radius: 2vw;
+    }
+
+    .Donate-HowSection {
+        width: 90vw;
+        
+        margin: auto;
+        margin-top: 5vw;
+    }
+
+    .Donate-HowSection-Flex-Card-offset {
+        position: relative;
+        top: -10vw;
+        left: 34vw;
+
+        width: 14vw;
+        height: 14vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 100vw;
+
+        font-size: 6vw;
+    }
+
+    .Donate-HowSection h2 {
+        margin-top: 10vw;
+    }
+
+    .Donate-HowSection-Flex {
+        flex-direction: column;
+
+        width: 90vw;
+
+        margin: auto;
+        margin-top: 10vw;
+    }
+
+    .Donate-HowSection-Flex-Card {
+        justify-content: end;
+
+        width: 82vw;
+
+        padding: 4vw;
+        padding-bottom: 6vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Donate-HowSection-Flex-Card-Info {
+        height: fit-content;
+    }
+
+    .Donate-HowSection-Flex-Card:nth-child(2) {
+        margin-left: 0vw;
+        margin-right: 0vw;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+    }
+
+    .Donate-HowSection-Flex-Card-Info h3 {
+        margin-top: -5vw;
+        margin-bottom: 4vw;
+    }
+
+    .Donate-HowSection-Flex-Card-Info p {
+        margin: 0vw;
+    }
+
+    .Donate-VolunteerHighlight-Main {
+        width: 90vw;
+
+        margin: auto;
+        margin-top: 10vw;
+        margin-bottom: 10vw;
+    }
+
+    .Donate-VolunteerHighlight-Info {
+        flex-direction: column;
+
+        margin-bottom: 4vw;
+    }
+
+    .Donate-VolunteerHighlight-Info h2 {
+        width: 90vw;
+
+        margin: 0vw;
+
+        font-size: 10vw;
+        line-height: 9vw;
+    }
+
+    .Donate-VolunteerHighlight-Info-Description {
+        width: 90vw;
+    }
+
+    .Donate-VolunteerHighlight-Info-Description a {
+        width: 84vw;
+
+        margin-bottom: 4vw;
+        padding: 3vw;
+
+        border-radius: 2vw;
+
+        font-size: 4vw;
+    }
+
+    .Donate-VolunteerHighlight {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .Donate-VolunteerHighlight-Card {
+        width: 84vw;
+
+        margin-bottom: 2vw;
+
+        padding: 3vw;
+
+        border: 3px solid var(--Black);
+        border-radius: 2vw;
+    }
+
+    .Donate-VolunteerHighlight-Split {
+        width: fit-content;
+    }
+
+    .Donate-VolunteerHighlight-Card h3{
+        margin-bottom: 0vw;
+    }
+
+    .Donate-VolunteerHighlight-Card-Four {
+        height: 80vw;
+    }
+}

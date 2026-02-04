@@ -1,0 +1,146 @@
+.Blog-Main {
+    width: 60vw;
+
+    margin: auto;
+    margin-bottom: 5vw;
+}
+
+.Blog-Main h1 {
+    width: 45vw;
+
+    margin: auto;
+    margin-top: 4vw;
+    margin-bottom: 0.5vw;
+
+    color: var(--Black);
+
+    font-size: 3vw;
+    font-weight: 800;
+    text-align: center;
+}
+
+.Blog-Main span {
+    display: block;
+
+    width: 45vw;
+
+    margin: auto;
+    margin-bottom: 1vw;
+
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Blog-Main img {
+    width: 60vw;
+    height: 30vw;
+
+    border-radius: 1vw;
+}
+
+.Blog-Main h2 {
+    margin-top: 3vw;
+    margin-bottom: 0vw;
+
+    font-size: 2vw;
+    font-weight: 800;
+}
+
+.Blog-Main h3 {
+    font-size: 1vw;
+    font-weight: 600;
+}
+
+.Blog-Main p {
+    color: var(--Grey);
+
+    font-size: 1vw;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.Blog-Section {
+    display: flex;
+    
+    width: 60vw;
+
+    margin: auto;
+}
+
+.Blog-Socials {
+    width: 3vw;
+    margin-top: 1vw;
+}
+
+.Blog-Socials img {
+    width: 3vw;
+    height: 3vw;
+
+    border-radius: 100vw;
+}
+
+.Blog-Content {
+    width: 45vw;
+
+    margin: auto;
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {}
+
+@media (max-width: 767px) {
+    .Blog-Main {
+        width: 90vw;
+
+        margin-bottom: 10vw;
+    }
+
+    .Blog-Main h1 {
+        width: 80vw;
+
+        margin: auto;
+        margin-top: 5vw;
+        margin-bottom: 0.5vw;
+
+        font-size: 7vw;
+    }
+
+    .Blog-Main span {
+        width: 45vw;
+
+        margin: auto;
+        margin-bottom: 1vw;
+
+        font-size: 3vw;
+    }
+
+    .Blog-Main img {
+        width: 90vw;
+        height: 60vw;
+
+        border-radius: 2vw;
+    }
+
+    .Blog-Main h2 {
+        margin-top: 7vw;
+        margin-bottom: 0vw;
+
+        font-size: 7vw;
+    }
+
+    .Blog-Main h3 {
+        font-size: 5vw;
+    }
+
+    .Blog-Main p {
+        font-size: 4vw;
+    }
+
+    .Blog-Section {
+        width: 90vw;
+    }
+
+    .Blog-Content {
+        width: 80vw;
+    }
+}
