@@ -7,7 +7,6 @@ import "./index.css"
 import Header from '../../components/01_header/header';
 import Footer from '../../components/02_footer/footer';
 
-import PageImage1 from "../../images/steamvision/H1.jpg"
 import PageImage2 from "../../images/steamvision/H2.jpg"
 import PageImage3 from "../../images/steamvision/H3.jpg"
 
@@ -38,9 +37,9 @@ import Card103 from "../../images/Banner/B3.jpg"
 import Card104 from "../../images/Banner/B4.jpg"
 import Card105 from "../../images/Banner/B5.jpg"
 
-export default function Index() {
-    const slidesByCard = [[{ bg: Card101 }, { bg: Card102 }, { bg: Card103 }, { bg: Card104 }, { bg: Card105 }]];
+const slidesByCard = [[{ bg: Card101 }, { bg: Card102 }, { bg: Card103 }, { bg: Card104 }, { bg: Card105 }]];
 
+export default function Index() {
     const [counter_Carl, setCounter_Carl] = useState(0);
 
     useEffect(() => {
