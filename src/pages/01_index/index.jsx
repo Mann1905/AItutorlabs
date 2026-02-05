@@ -291,19 +291,10 @@ export default function Index() {
                     </div>
                 </div>
                 <div className='Home-EngagementSection-Main'>
-                    <h2 className='Home-EngagementSection-Title'>Reach 500 mentors and impact 1000+ students by Dec 2026</h2>
                     <div className='Home-EngagementSection-Content'>
-                        <div className='Home-EngagementSection-Strategy'>
-                            <h3>How we will Engage the Community (till end of Dec 2026)</h3>
-                            <ul>
-                                <li>Partner with at least 4 more NGOs and schools to identify students and learning spaces</li>
-                                <li>Recruit and train 20 volunteers to support online teaching</li>
-                                <li>Support mentors with structured lesson plans and make them available on our App (to be developed)</li>
-                                <li>Run regular workshops and learning sessions on online platform</li>
-                                <li>Host learning showcases and hackathons where participants demonstrate responsible AI use and cyber safety knowledge</li>
-                                <li>Collect feedback through our app and community meetings</li>
-                                <li>Improve programs based on student and mentor input</li>
-                            </ul>
+                        <div className='Home-EngagementSection-Objective'>
+                            <h2 className='Home-EngagementSection-Title'>Reach 500 mentors and impact 1000+ students by Dec 2026</h2>
+                            <p className='Home-EngagementSection-Subtitle'>Our plan for Community Engagement till Dec 2026</p>
                         </div>
                         <div className='Home-EngagementSection-Chart'>
                             <img src={PieChart} alt="Engagement Cycle Diagram" />
