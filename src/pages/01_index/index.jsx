@@ -26,7 +26,7 @@ import Colab2 from "../../images/collab/C2.jpg"
 import Colab3 from "../../images/collab/C3.jpg"
 import Colab4 from "../../images/collab/C4.jpg"
 
-import PieChart from "../../images/PieChart.svg"
+import PieChart from "../../images/Wheel (1).png"
 
 import Instagram from '../../images/social/Instagram.png'
 import LinkedIn from '../../images/social/LinkedIn.png'
