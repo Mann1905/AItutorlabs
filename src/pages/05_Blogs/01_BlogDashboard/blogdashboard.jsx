@@ -1,6 +1,7 @@
 import { HelmetProvider } from 'react-helmet-async';
 import { useLocation } from "wouter";
-import { useState } from 'react';
+// COMMENTED OUT - useState no longer needed
+// import { useState } from 'react';
 
 import blogMeta from "../../../data/blogmeta";
 
@@ -13,18 +14,14 @@ import Footer from '../../../components/02_footer/footer';
 
 export default function Blog() {
     const [, navigate] = useLocation();
-    const [offset, setOffset] = useState(0);
-
-    const moveRight = () => {
-    // 30% right, but never above 0%
-    setOffset((prev) => Math.min(prev + 25, 0));
-    };
-
-
-    const moveLeft = () => {
-    // 38% left (always allowed)
-    setOffset((prev) => Math.max(prev - 25, -75));
-    };
+    // COMMENTED OUT - Unused variables for Older Uploads section
+    // const [offset, setOffset] = useState(0);
+    // const moveRight = () => {
+    //     setOffset((prev) => Math.min(prev + 25, 0));
+    // };
+    // const moveLeft = () => {
+    //     setOffset((prev) => Math.max(prev - 25, -75));
+    // };
     return (
         <div>
             <HelmetProvider>
