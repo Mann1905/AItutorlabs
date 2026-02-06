@@ -66,6 +66,7 @@ export default function Blog() {
                         </div>
                     </div>
                 ))}
+                {/* COMMENTED OUT - Second card (title 2)
                 {blogMeta.slice(1, 2).map((blog) => (
                     <div 
                     key={blog.id} 
@@ -78,8 +79,10 @@ export default function Blog() {
                         </div>
                     </div>
                 ))}
+                */}
                 </div>
             </div>
+            {/* COMMENTED OUT - Older Uploads section
             <div className="blogdashboard-Grid-Navigation">
                 <h2>Older Uploads</h2>
                 <div className="blogdashboard-Grid-Navigation-Buttons">
@@ -104,6 +107,7 @@ export default function Blog() {
                     ))}
                 </div>
             </div>
+            */}
             <Footer />
         </div>
     );
