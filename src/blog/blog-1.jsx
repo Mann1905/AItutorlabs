@@ -2,7 +2,7 @@ import { HelmetProvider } from 'react-helmet-async';
 
 import "./blog.css"
 
-import R from "../images_02/Rec.jpg"
+import R from "../images/Frame 356.png"
 
 export default function Blog() {
     return (
