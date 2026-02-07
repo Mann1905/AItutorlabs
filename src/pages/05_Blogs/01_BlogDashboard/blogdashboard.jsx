@@ -8,6 +8,7 @@ import blogMeta from "../../../data/blogmeta";
 import "../01_BlogDashboard/blogdashboard.css"
 
 import R from "../../../images/Frame 356.png"
+import Arrow from "../../../images/arrow.svg"
 
 import Header from '../../../components/01_header/header';
 import Footer from '../../../components/02_footer/footer';
@@ -56,7 +57,7 @@ export default function Blog() {
                     key={blog.id} 
                     className="blogdashboard-Latest-Card-Long" 
                     onClick={() => navigate(`../../../blog/${blog.id}`)}>
-                        <img src={R} alt="" className="blogdashboard-Latest-Card-Long-Arrow" />
+                        <img src={Arrow} alt="" className="blogdashboard-Latest-Card-Long-Arrow" />
                         <img src={R} alt="" className="blogdashboard-Latest-Card-Cover" />
                         <div className="blogdashboard-Latest-Card-Details">
                             <h3>{blog.title}</h3>
