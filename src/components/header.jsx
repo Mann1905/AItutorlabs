@@ -24,7 +24,7 @@ export default function Header() {
             <div className="navigationbar-section">
               <a href="/about" onClick={() => setMobileMenuOpen(false)}>About Us</a><br />
               <a href="/services" onClick={() => setMobileMenuOpen(false)}>Services</a><br />
-              <a href="/blog" onClick={() => setMobileMenuOpen(false)}>Blogs</a><br />
+              {/* <a href="/blog" onClick={() => setMobileMenuOpen(false)}>Blogs</a><br /> */}
               <a href="/career" onClick={() => setMobileMenuOpen(false)}>Career</a> <br />
               <a href="/contact" onClick={() => setMobileMenuOpen(false)}>Contact Us</a><br />
             </div>

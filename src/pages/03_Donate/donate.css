@@ -11,7 +11,7 @@
 
     margin: auto;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -111,7 +111,7 @@
     color: var(--Black);
     background-color: var(--Yellow);
 
-    border: 0px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     text-align: center;
@@ -168,7 +168,7 @@
 
     padding: 2vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -240,7 +240,7 @@
     color: var(--Black);
     background-color: var(--Yellow);
 
-    border: 0px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     text-align: center;
@@ -268,7 +268,7 @@
 
     padding: 2vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -437,7 +437,7 @@
         width: 14vw;
         height: 14vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 100vw;
 
         font-size: 6vw;
@@ -464,7 +464,7 @@
         padding: 4vw;
         padding-bottom: 6vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -538,7 +538,7 @@
 
         padding: 3vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 

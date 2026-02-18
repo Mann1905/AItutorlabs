@@ -11,7 +11,7 @@
 
     margin: auto;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -116,7 +116,7 @@
     color: var(--Black);
     background-color: var(--Yellow);
 
-    border: 0px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     text-align: center;
@@ -142,7 +142,7 @@
 
     padding: 2vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -238,7 +238,7 @@
     color: var(--Black);
     background-color: var(--Yellow);
 
-    border: 0px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     text-align: center;
@@ -249,78 +249,68 @@
 .Volunteer-DonateHighlight-InfoCards {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
+    gap: 2vw;
+    margin-top: 3vw;
 }
 
 .Volunteer-DonateHighlight-InfoCards-Main {
     display: flex;
     flex-direction: column;
-    justify-content: end;
-
+    justify-content: flex-end;
     width: 60vw;
+    min-height: 28vw;
     padding: 3vw;
-
     background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0)), url("../../images/steamvision/D2.jpg");
     background-size: cover;
     background-position: center center;
-
-    border: 3px solid var(--Black);
     border-radius: 1vw;
 }
 
 .Volunteer-DonateHighlight-InfoCards-Main h3 {
     margin: 0vw;
-
     color: var(--BG);
+    font-size: 2vw;
+    font-weight: 800;
 }
 
 .Volunteer-DonateHighlight-InfoCards-Main p {
     margin: 0vw;
-    margin-top: 2vw;
-
+    margin-top: 1vw;
     color: var(--BG);
+    font-size: 1.2vw;
 }
 
-.Volunteer-DonateHighlight-InfoCards-Flex {
+.Volunteer-DonateHighlight-InfoCards-Stats {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 3vw;
+    width: 28vw;
 }
 
-.Volunteer-DonateHighlight-InfoCards-Flex-Cards {
-    padding: 1.5vw;
-
-    border: 3px solid var(--Black);
-    border-radius: 1vw;
+.Volunteer-Stat-Block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.Volunteer-DonateHighlight-InfoCards-Flex-Cards h3 {
-    margin: 0vw;
-    margin-top: 3vw;
-
-    color: var(--BG);
-
-    font-size: 3.5vw;
+.Volunteer-Stat-Number {
+    display: block;
+    font-size: 4vw;
+    font-weight: 800;
+    color: var(--Black);
+    line-height: 1.2;
 }
 
-.Volunteer-DonateHighlight-InfoCards-Flex-Cards p {
-    margin: 0vw;
-
-    color: var(--BG);
-}
-
-.Volunteer-DonateHighlight-InfoCards-Flex-Cards:nth-child(1) {
-    background-color: var(--Green);
-}
-
-.Volunteer-DonateHighlight-InfoCards-Flex-Cards:nth-child(2) {
-    background-color: var(--Blue);
-
-    margin-top: 1vw;
-    margin-bottom: 1vw;
-}
-
-.Volunteer-DonateHighlight-InfoCards-Flex-Cards:nth-child(3) {
-    background-color: var(--Orange);
+.Volunteer-Stat-Text {
+    display: block;
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: var(--Black);
+    margin-top: 0.3vw;
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {}
@@ -428,7 +418,7 @@
 
         padding: 3vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -476,63 +466,47 @@
         margin-top: 1.5vw;
         padding: 3vw;
 
-        border: 0px solid var(--Black);
+        border: none;
         border-radius: 1vw;
     }
 
     .Volunteer-DonateHighlight-InfoCards {
         flex-direction: column;
-
         margin-top: 5vw;
     }
 
     .Volunteer-DonateHighlight-InfoCards-Main {
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-
-        width: 82.5vw;
-
-        margin-bottom: 2vw;
-
-        padding: 3vw;
+        width: 90vw;
+        min-height: 50vw;
+        padding: 4vw;
         padding-top: 35vw;
-
-        border: 3px solid var(--Black);
-        border-radius: 2vw;
     }
 
     .Volunteer-DonateHighlight-InfoCards-Main h3 {
-        margin-top: 15vw;
+        font-size: 5vw;
     }
 
     .Volunteer-DonateHighlight-InfoCards-Main p {
-        margin: 0vw;
+        font-size: 3.5vw;
         margin-top: 2vw;
     }
 
-    .Volunteer-DonateHighlight-InfoCards-Flex {
-        display: flex;
+    .Volunteer-DonateHighlight-InfoCards-Stats {
+        width: 90vw;
+        gap: 6vw;
+        align-items: center;
     }
 
-    .Volunteer-DonateHighlight-InfoCards-Flex-Cards {
-        padding: 3vw;
-
-        border: 3px solid var(--Black);
-        border-radius: 2vw;
+    .Volunteer-Stat-Block {
+        align-items: center;
+        text-align: center;
     }
 
-    .Volunteer-DonateHighlight-InfoCards-Flex-Cards h3 {
-        margin: 0vw;
-        margin-top: 6vw;
-
-        font-size: 7vw;
+    .Volunteer-Stat-Number {
+        font-size: 10vw;
     }
 
-    .Volunteer-DonateHighlight-InfoCards-Flex-Cards:nth-child(2) {
-        background-color: var(--Blue);
-
-        margin-top: 2vw;
-        margin-bottom: 2vw;
+    .Volunteer-Stat-Text {
+        font-size: 4vw;
     }
 }

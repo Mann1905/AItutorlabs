@@ -62,13 +62,13 @@ html {
 .documentation {
   width: 50vw;
   padding: 5vw;
-  border: 0px solid #000;
+  border: none;
   background-color: #fdfdfd;
   border-radius: 0.5vw;
   margin: auto;
   margin-top: 3vw;
   margin-bottom: 10vw;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: none;
 }
 
 @media (max-width: 767px) {
@@ -128,13 +128,13 @@ html {
   .documentation {
   width: 80vw;
   padding: 5vw;
-  border: 0px solid #000;
+  border: none;
   background-color: #fdfdfd;
   border-radius: 2vw;
   margin: auto;
   margin-top: 3vw;
   margin-bottom: 10vw;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: none;
 }
 
 }

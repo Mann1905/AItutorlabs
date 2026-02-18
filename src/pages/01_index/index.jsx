@@ -236,30 +236,16 @@ export default function Index() {
                     <h2>Our Visions & Goals</h2>
                     <div className='Home-VisionSection-Flex'>
                         <div  className='Home-VisionSection-Cards'>
-                            <h3>Long Term Model</h3>
+                            <h3>Long-Term Model</h3>
                             <ul>
                                 <li>
-                                    Mentor-first, sascading learning model where trained mentors continue teaching peers & Younger students, build long-term AI & cyber-safety capability
+                                    Mentor-first cascading model (train mentors → they train others)
                                 </li>
                                 <li>
-                                    Inclusive of all age groups
+                                    Inclusive for all age groups
                                 </li>
                                 <li>
-                                    Self-Sustaining mentor network through volunteer-led delivery - potential to make it a global & scalable model.
-                                </li>
-                            </ul>
-                        </div>
-                        <div  className='Home-VisionSection-Cards'>
-                            <h3>Skill Development</h3>
-                            <ul>
-                                <li>
-                                    Students and mentors gain hands-on experience with practical AI tools (profiles/resumes, presentations, essay writing)
-                                </li>
-                                <li>
-                                    With SDG 4, also support UN SDG 8 & SDG 10 by preparing for future careers & reducing digital inequality
-                                </li>
-                                <li>
-                                    Language-inclusive content & training enables participation from learners excluded from edTech
+                                    Volunteer-led, self-sustaining & scalable network
                                 </li>
                             </ul>
                         </div>
@@ -267,10 +253,24 @@ export default function Index() {
                             <h3>Cyber Safety</h3>
                             <ul>
                                 <li>
-                                    Training on online safety, privacy, ethical AI use, and digital responsibility
+                                    Training on online safety, privacy & ethical AI use
                                 </li>
                                 <li>
-                                    Cyber safety early awarness to avoid cyber risks, online misuse
+                                    Early awareness to prevent cyber risks & online misuse
+                                </li>
+                            </ul>
+                        </div>
+                        <div  className='Home-VisionSection-Cards'>
+                            <h3>Skill Development</h3>
+                            <ul>
+                                <li>
+                                    Hands-on AI tool training (resumes, presentations, essays)
+                                </li>
+                                <li>
+                                    Supports SDG 4, 8 & 10 (education, employability & reduced inequality)
+                                </li>
+                                <li>
+                                    Language-inclusive learning to bridge the digital divide
                                 </li>
                             </ul>
                         </div>
@@ -278,13 +278,13 @@ export default function Index() {
                             <h3>Larger Outreach</h3>
                             <ul>
                                 <li>
-                                    Development of App/platform development that hosts resources, session recordings, and reusable learning materials
+                                    Develop an app/platform hosting resources, recordings & reusable learning materials
                                 </li>
                                 <li>
-                                    Future growth includes more practical AI tools & expanded NGO partnerships
+                                    Expand practical AI tools & NGO partnerships
                                 </li>
                                 <li>
-                                    Use of Instagram & Info-graphics to spread awarness
+                                    Use Instagram & infographics for wider awareness
                                 </li>
                             </ul>
                         </div>

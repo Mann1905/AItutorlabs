@@ -14,7 +14,7 @@ export default function Footer() {
                     <div>
                         <a href="/">Home</a>
                         <a href="/contact">Contact Us</a>
-                        <a href="/blogdashboard">Blogs</a>
+                        {/* <a href="/blogdashboard">Blogs</a> */}
                     </div>
                     <div>
                         <a href="/volunteer"><button className="Footer-Section-Internals-Volunteer">Become a Volunteer</button></a>

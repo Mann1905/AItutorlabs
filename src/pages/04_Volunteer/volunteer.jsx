@@ -142,25 +142,21 @@ export default function Volunteer() {
                     </div>
                     <div className='Volunteer-DonateHighlight-InfoCards'>
                         <div className='Volunteer-DonateHighlight-InfoCards-Main'>
-                            <h3>
-                                Driving Digital Inclusion Through Education
-                            </h3>
-                            <p>
-                                AITutorLabs is transforming lives by providing access to AI tools, cyber safety education, and mentorship to underprivileged students and educators across rural India.
-                            </p>
+                            <h3>Driving Digital Inclusion Through Education</h3>
+                            <p>AITutorLabs is transforming lives by providing access to AI tools, cyber safety education, and mentorship to underprivileged students and educators across rural India.</p>
                         </div>
-                        <div className='Volunteer-DonateHighlight-InfoCards-Flex'>
-                            <div className='Volunteer-DonateHighlight-InfoCards-Flex-Cards'>
-                                <h3>600+</h3>
-                                <p>Students & Mentors Trained</p>
+                        <div className='Volunteer-DonateHighlight-InfoCards-Stats'>
+                            <div className='Volunteer-Stat-Block'>
+                                <span className='Volunteer-Stat-Number'>600+</span>
+                                <span className='Volunteer-Stat-Text'>Students & Mentors Trained</span>
                             </div>
-                            <div className='Volunteer-DonateHighlight-InfoCards-Flex-Cards'>
-                                <h3>150+</h3>
-                                <p>Individuals Made Job-Ready</p>
+                            <div className='Volunteer-Stat-Block'>
+                                <span className='Volunteer-Stat-Number'>150+</span>
+                                <span className='Volunteer-Stat-Text'>Individuals Made Job-Ready</span>
                             </div>
-                            <div className='Volunteer-DonateHighlight-InfoCards-Flex-Cards'>
-                                <h3>20+</h3>
-                                <p>Cyber Safety Sessions Conducted</p>
+                            <div className='Volunteer-Stat-Block'>
+                                <span className='Volunteer-Stat-Number'>20+</span>
+                                <span className='Volunteer-Stat-Text'>Cyber Safety Sessions Conducted</span>
                             </div>
                         </div>
                     </div>

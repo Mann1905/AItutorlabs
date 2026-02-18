@@ -44,7 +44,7 @@
 
     font-weight: 800;
 
-    border: 0px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     text-align: center;
@@ -63,7 +63,7 @@
 
     font-weight: 800;
 
-    border: 1px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     text-align: center;
@@ -76,7 +76,7 @@
     width: 35vw;
     height: 38vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -93,7 +93,7 @@
     height: 38vw;
     position: relative;
  
-    order: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     overflow: hidden;
@@ -118,7 +118,7 @@
 .slides-Cards {
     margin-bottom: 1vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
   
@@ -180,7 +180,7 @@
 
     padding: 0.7vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -249,7 +249,7 @@
 
     background-color: var(--Orange);
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -275,7 +275,7 @@
 
     margin: auto;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -389,7 +389,7 @@
     padding: 1.5vw;
     width: 18vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -589,7 +589,7 @@
     width: 35vw;
     height: 40vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -637,7 +637,7 @@
 
     margin-bottom: 2vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -647,7 +647,7 @@
 
     margin: 1vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     
@@ -749,7 +749,7 @@
     width: 35vw;
     height: 40vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -774,7 +774,7 @@
     color: var(--Black);
     background-color: var(--Yellow);
 
-    border: 0px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     text-align: center;
@@ -850,7 +850,7 @@
     color: var(--Black);
     background-color: var(--Yellow);
 
-    border: 0px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     text-align: center;
@@ -889,7 +889,7 @@
     color: var(--Black);
     background-color: var(--Yellow);
 
-    border: 0px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     text-align: center;
@@ -917,7 +917,7 @@
 
     padding: 2vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -1036,7 +1036,7 @@
     color: var(--Black);
     background-color: var(--Yellow);
 
-    border: 0px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     text-align: center;
@@ -1061,7 +1061,7 @@
     background-size: cover;
     background-position: center center;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -1087,7 +1087,7 @@
 .Home-DonateHighlight-InfoCards-Flex-Cards {
     padding: 1.5vw;
 
-    border: 3px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 }
 
@@ -1206,7 +1206,7 @@
     color: var(--Black);
     background-color: var(--Yellow);
 
-    border: 0px solid var(--Black);
+    border: none;
     border-radius: 1vw;
 
     text-align: center;
@@ -1265,7 +1265,7 @@
 
         font-weight: 800;
 
-        border: 0px solid var(--Black);
+        border: none;
         border-radius: 2vw;
 
         text-align: center;
@@ -1285,7 +1285,7 @@
 
         font-weight: 800;
 
-        border: 1px solid var(--Black);
+        border: none;
         border-radius: 2vw;
 
         text-align: center;
@@ -1300,7 +1300,7 @@
 
         margin-top: 4vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -1353,7 +1353,7 @@
 
         margin-bottom: 4vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -1386,7 +1386,7 @@
 
         background-color: var(--Orange);
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -1412,7 +1412,7 @@
 
         margin: auto;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -1537,7 +1537,7 @@
 
         margin-bottom: 2vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -1663,7 +1663,7 @@
         width: 90vw;
         height: 80vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -1790,7 +1790,7 @@
 
         margin-bottom: 4vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -1810,7 +1810,7 @@
 
         padding: 3vw;
 
-        border: 0px solid var(--Black);
+        border: none;
         border-radius: 2vw;
 
         font-size: 4vw;
@@ -1875,7 +1875,7 @@
         margin-top: 3vw;
         padding: 3vw;
 
-        border: 0px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -1926,7 +1926,7 @@
 
         padding: 3vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -1976,7 +1976,7 @@
         margin-top: 1.5vw;
         padding: 3vw;
 
-        border: 0px solid var(--Black);
+        border: none;
         border-radius: 2vw;
     }
 
@@ -2000,7 +2000,7 @@
         padding: 3vw;
         padding-top: 35vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 1vw;
     }
 
@@ -2020,7 +2020,7 @@
     .Home-DonateHighlight-InfoCards-Flex-Cards {
         padding: 3vw;
 
-        border: 3px solid var(--Black);
+        border: none;
         border-radius: 1vw;
     }
 

@@ -29,11 +29,13 @@ export default function Header() {
               <img src={logo} alt="" />
             </a>
             <div className="Navigationbar-Section-Left-Flex-Links">
-              <a href="/contact">Contact us</a>
-              <a href="/blogdashboard">Blogs</a>
+            <a href="/contact">Contact us</a>
+              
+              {/* <a href="/blogdashboard">Blogs</a> */}
             </div>
           </div>
           <div className="Navigationbar-Section-Right-Flex">
+      
             <a href="/volunteer"><button  className="Navigationbar-Section-Right-Flex-Volunteer">Become a Volunteer</button></a>
             <a href="/donate"><button  className="Navigationbar-Section-Right-Flex-Donate">Donate</button></a>
           </div>
@@ -49,7 +51,7 @@ export default function Header() {
           <div className="Navigationbar-Mobile">
             <div className="Navigationbar-Mobile-Section">
               <a href="/contact" onClick={() => setMobileMenuOpen(false)}>Contact Us</a>
-              <a href="/blogdashboard" onClick={() => setMobileMenuOpen(false)}>Blogs</a>
+              {/* <a href="/blogdashboard" onClick={() => setMobileMenuOpen(false)}>Blogs</a> */}
               <div className="Navigationbar-Mobile-Section-Right-Flex">
                 <a href="/volunteer"><button  className="Navigationbar-Mobile-Section-Flex-Volunteer">Become a Volunteer</button></a>
                 <a href="/donate"><button  className="Navigationbar-Mobile-Section-Flex-Donate">Donate</button></a>

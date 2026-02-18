@@ -48,12 +48,12 @@ body {
   width: 60vw;
   margin: auto;
   margin-top: 5vw;
-  border: 1px solid #000;
+  border: none;
   padding: 5vw;
   border-radius: 2vw;
   display: flex;
   justify-content: space-between;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: none;
 }
 
 .ad-main div {
@@ -88,13 +88,13 @@ body {
     width: 80vw;
     margin: auto;
     margin-top: 5vw;
-    border: 1px solid #000;
+    border: none;
     padding: 5vw;
     border-radius: 2vw;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: none;
   }
 
   .ad-main label {
